@@ -3,8 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <title>Interaktiv Naive Bayes Demo</title>
+    <!-- MathJax för matematisk formelrendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+    <!-- Övriga CSS- och script-taggar från originalkoden -->
     <!-- Font Awesome för ikoner -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <!-- React & ReactDOM -->
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
@@ -13,8 +24,10 @@
     <!-- D3.js (för framtida visualiseringar) -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <!-- Ta bort d3 från global scope -->
-    <script> delete window.d3; </script>
-    <!-- MathLive (för LaTeX-rendering) -->
+    <script>
+      delete window.d3;
+    </script>
+    <!-- MathLive (för matematiska uttryck) -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/mathlive/0.69.4/mathlive.min.css"
@@ -47,7 +60,8 @@
         color: #3498db;
         margin-bottom: 1rem;
       }
-      h3, h4 {
+      h3,
+      h4 {
         color: #2c3e50;
       }
       /* Sektioner med extra padding */
@@ -56,7 +70,7 @@
         margin-bottom: 2rem;
         background: white;
         border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
       /* Tvåkolumnslayout */
       .two-column {
@@ -76,10 +90,11 @@
         display: block;
         border-collapse: collapse;
         margin: 10px 0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         transition: background-color 0.2s ease;
       }
-      th, td {
+      th,
+      td {
         border: 1px solid #aaa;
         padding: 5px;
         text-align: left;
@@ -216,71 +231,32 @@
         font-weight: bold;
         margin-bottom: 1rem;
       }
-      /* Stil för att visa utökade beräkningsdetaljer */
-      .calculation-details {
-        font-family: monospace;
-        background: #f0f0f0;
-        padding: 0.5rem;
-        border-radius: 5px;
-        margin-top: 1rem;
-        white-space: pre-wrap;
-      }
     </style>
   </head>
   <body>
     <div id="root"></div>
     
-    <!-- Sätter React och ReactDOM i global scope -->
     <script>
       window.React = React;
       window.ReactDOM = ReactDOM;
     </script>
     
-    <!-- All React-kod skrivs med Babel (JSX) -->
     <script type="text/babel" data-presets="react,es2015">
       /* @jsx React.createElement */
       
       /********************
        * Hjälpfunktioner *
        ********************/
+      // Funktion för att räkna ord med Unicode-stöd
       function computeWordCounts(emails) {
         const counts = {};
         emails.forEach((email) => {
-          const tokens = email.text.toLowerCase().match(/\b\w+\b/g) || [];
+          const tokens = email.text.toLowerCase().match(/[\p{L}\p{N}_]+/gu) || [];
           tokens.forEach((token) => {
             counts[token] = (counts[token] || 0) + 1;
           });
         });
         return counts;
-      }
-      
-      /*********************
-       * Latex-komponenten *
-       *********************/
-      function Latex({ children }) {
-        // MathLive renderar LaTeX-strängen till HTML
-        const markup = MathLive.renderToMarkup(children);
-        return <div dangerouslySetInnerHTML={{ __html: markup }} />;
-      }
-      
-      /**************************
-       * InteractiveFormula-komponenten *
-       **************************/
-      function InteractiveFormula({ parts, onPartClick }) {
-        return (
-          <div className="formula-container">
-            {parts.map((part, i) => (
-              <span 
-                key={i}
-                className="formula-part tooltip"
-                title={part.tooltip}
-                onClick={() => onPartClick(part)}
-              >
-                {part.label}
-              </span>
-            ))}
-          </div>
-        );
       }
       
       /**************************
@@ -300,20 +276,45 @@
       }
       
       /**************************
-       * WordFrequencyRow-komponenten *
+       * Uppdaterad WordFrequencyRow-komponent *
        **************************/
-      function WordFrequencyRow({ word, spamCount, hamCount, editing, onEdit, onSave, onCancel, editSpam, editHam, setEditSpam, setEditHam, totalSpamWords, totalHamWords, vocabSize }) {
-        const total = spamCount + hamCount;
-        const spamPercentage = total > 0 ? (spamCount / total) * 100 : 0;
-        const hamPercentage = total > 0 ? (hamCount / total) * 100 : 0;
-        const totalHeight = Math.log(total + 1) * 10;
-        // Använd Laplace endast om count är 0, annars använd den "råa" frekvensen
-        const pWordSpam = spamCount === 0 
-          ? ((spamCount + 1) / (totalSpamWords + vocabSize)).toFixed(3)
-          : (spamCount / totalSpamWords).toFixed(3);
-        const pWordHam = hamCount === 0 
-          ? ((hamCount + 1) / (totalHamWords + vocabSize)).toFixed(3)
-          : (hamCount / totalHamWords).toFixed(3);
+      function WordFrequencyRow({
+        word,
+        spamCount,
+        hamCount,
+        totalSpamWords,
+        totalHamWords,
+        vocabSize,
+        editing,
+        onEdit,
+        onSave,
+        onCancel,
+        editSpam,
+        editHam,
+        setEditSpam,
+        setEditHam
+      }) {
+        // Om antalet är 0 används Laplace-utjämning
+        const applyLaplaceSpam = spamCount === 0;
+        const applyLaplaceHam = hamCount === 0;
+        
+        const pWordSpam = (applyLaplaceSpam
+          ? 1 / (totalSpamWords + vocabSize)
+          : spamCount / totalSpamWords
+        ).toFixed(3);
+        
+        const pWordHam = (applyLaplaceHam
+          ? 1 / (totalHamWords + vocabSize)
+          : hamCount / totalHamWords
+        ).toFixed(3);
+        
+        const tooltipSpam = applyLaplaceSpam
+          ? `Laplace används: (0 + 1) / (${totalSpamWords} + ${vocabSize})`
+          : `${spamCount} / ${totalSpamWords}`;
+        const tooltipHam = applyLaplaceHam
+          ? `Laplace används: (0 + 1) / (${totalHamWords} + ${vocabSize})`
+          : `${hamCount} / ${totalHamWords}`;
+      
         return (
           <tr>
             <td>{word}</td>
@@ -327,10 +328,7 @@
                   onChange={(e) => setEditSpam(e.target.value)}
                 />
               ) : (
-                <>
-                  {spamCount}
-                  {Number(spamCount) === 0 && <span className="warning"> (OBS! Noll)</span>}
-                </>
+                spamCount
               )}
             </td>
             <td>
@@ -343,20 +341,17 @@
                   onChange={(e) => setEditHam(e.target.value)}
                 />
               ) : (
-                <>
-                  {hamCount}
-                  {Number(hamCount) === 0 && <span className="warning"> (OBS! Noll)</span>}
-                </>
+                hamCount
               )}
             </td>
             <td>
-              <div className="bar-container" style={{ height: `${totalHeight}px` }} title={`Spam: ${spamCount}, Icke-spam: ${hamCount}`}>
-                <div className="spam-bar" style={{ width: `${spamPercentage}%` }}></div>
-                <div className="ham-bar" style={{ width: `${hamPercentage}%` }}></div>
+              <div className="bar-container" title={`Spam: ${spamCount}, Icke-spam: ${hamCount}`}>
+                <div className="spam-bar" style={{ width: `${(spamCount/(spamCount+hamCount))*100 || 0}%` }}></div>
+                <div className="ham-bar" style={{ width: `${(hamCount/(spamCount+hamCount))*100 || 0}%` }}></div>
               </div>
             </td>
-            <td>{pWordSpam}</td>
-            <td>{pWordHam}</td>
+            <td title={tooltipSpam}>{pWordSpam}</td>
+            <td title={tooltipHam}>{pWordHam}</td>
             <td>
               {editing ? (
                 <>
@@ -372,31 +367,6 @@
       }
       
       /*********************
-       * BayesFormula-komponenten *
-       *********************/
-      function BayesFormula() {
-        return (
-          <div>
-            <h2>Interaktiv Bayes-formel</h2>
-            <Latex>{'$$P(Spam|Ord)=\\frac{P(Ord|Spam)\\cdot P(Spam)}{P(Ord)}$$'}</Latex>
-            <InteractiveFormula 
-              parts={[
-                { label: "P(Spam|Ord)", tooltip: "Sannolikheten att ett mail är spam givet ett ord" },
-                { label: "=", tooltip: "Likhetstecken" },
-                { label: "P(Ord|Spam)", tooltip: "Sannolikheten att ordet förekommer om mailet är spam" },
-                { label: "×", tooltip: "Multiplikation" },
-                { label: "P(Spam)", tooltip: "Andelen mail som är spam" },
-                { label: "/", tooltip: "Division" },
-                { label: "P(Ord)", tooltip: "Sannolikheten att ordet förekommer" }
-              ]}
-              onPartClick={(part) => alert(`Du klickade på "${part.label}". ${part.tooltip}`)}
-            />
-            <p>Klicka på en del av formeln för att se mer information.</p>
-          </div>
-        );
-      }
-      
-      /*********************
        * TrainingData-komponenten *
        *********************/
       function TrainingData({ data, updateData }) {
@@ -404,7 +374,7 @@
         const [newEmailLabel, setNewEmailLabel] = React.useState("spam");
       
         const addEmail = () => {
-          if(newEmailText.trim() === "") {
+          if (newEmailText.trim() === "") {
             alert("E-posttext får inte vara tom!");
             return;
           }
@@ -433,7 +403,7 @@
                 </tr>
               </thead>
               <tbody>
-                {data.slice(0,10).map((email) => (
+                {data.slice(0, 10).map((email) => (
                   <tr key={email.id}>
                     <td>{email.id}</td>
                     <td>
@@ -482,7 +452,9 @@
                   </select>
                 </label>
               </div>
-              <button onClick={addEmail}><i className="fas fa-plus"></i> Lägg till e-post</button>
+              <button onClick={addEmail}>
+                <i className="fas fa-plus"></i> Lägg till e-post
+              </button>
             </div>
           </section>
         );
@@ -498,17 +470,24 @@
         const computedSpamCounts = React.useMemo(() => computeWordCounts(spamEmails), [spamEmails]);
         const computedHamCounts = React.useMemo(() => computeWordCounts(hamEmails), [hamEmails]);
       
-        // Hämta vokabulär (alla unika ord) från både beräknad och manuellt justerad data
         const vocabulary = new Set([
           ...Object.keys(computedSpamCounts),
           ...Object.keys(computedHamCounts),
           ...Object.keys(customWordCounts)
         ]);
+        const allWords = Array.from(vocabulary).sort();
+      
         const vocabSize = vocabulary.size;
         const totalSpamWords = Object.values(computedSpamCounts).reduce((sum, val) => sum + val, 0);
         const totalHamWords = Object.values(computedHamCounts).reduce((sum, val) => sum + val, 0);
       
-        const allWords = Array.from(vocabulary).sort();
+        const defaultWords = ["hej", "gratis", "erbjudande", "möte", "kund"];
+      
+        const [searchTerm, setSearchTerm] = React.useState("");
+      
+        const wordsToDisplay = searchTerm
+          ? allWords.filter(word => word.toLowerCase().includes(searchTerm.toLowerCase()))
+          : defaultWords;
       
         const [editingWord, setEditingWord] = React.useState(null);
         const [editSpam, setEditSpam] = React.useState(0);
@@ -519,12 +498,12 @@
       
         const handleEdit = (word) => {
           setEditingWord(word);
-          setEditSpam(customWordCounts[word]?.spam ?? computedSpamCounts[word] ?? 0);
-          setEditHam(customWordCounts[word]?.ham ?? computedHamCounts[word] ?? 0);
+          setEditSpam(computedSpamCounts[word] !== undefined ? computedSpamCounts[word] : customWordCounts[word]?.spam ?? 0);
+          setEditHam(computedHamCounts[word] !== undefined ? computedHamCounts[word] : customWordCounts[word]?.ham ?? 0);
         };
       
         const saveEdit = (word) => {
-          if(editSpam < 0 || editHam < 0) {
+          if (editSpam < 0 || editHam < 0) {
             alert("Talen måste vara ≥ 0");
             return;
           }
@@ -540,7 +519,7 @@
         };
       
         const handleAddNewWord = () => {
-          if(newWord.trim() === "" || newSpam < 0 || newHam < 0) {
+          if (newWord.trim() === "" || newSpam < 0 || newHam < 0) {
             alert("Ogiltig input! Ord får inte vara tomma och tal måste vara ≥ 0");
             return;
           }
@@ -556,6 +535,15 @@
         return (
           <section>
             <h2>Ordfrekvenstabell</h2>
+            <div style={{ marginBottom: "10px" }}>
+              <input
+                type="text"
+                placeholder="Sök ord..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                style={{ padding: "4px", borderRadius: "3px", border: "1px solid #ccc", width: "100%" }}
+              />
+            </div>
             <table>
               <thead>
                 <tr>
@@ -569,15 +557,18 @@
                 </tr>
               </thead>
               <tbody>
-                {allWords.map((word) => {
-                  const spamCount = customWordCounts[word]?.spam ?? computedSpamCounts[word] ?? 0;
-                  const hamCount = customWordCounts[word]?.ham ?? computedHamCounts[word] ?? 0;
+                {wordsToDisplay.map((word) => {
+                  const spamCount = (computedSpamCounts[word] !== undefined ? computedSpamCounts[word] : customWordCounts[word]?.spam) ?? 0;
+                  const hamCount = (computedHamCounts[word] !== undefined ? computedHamCounts[word] : customWordCounts[word]?.ham) ?? 0;
                   return (
                     <WordFrequencyRow
                       key={word}
                       word={word}
                       spamCount={spamCount}
                       hamCount={hamCount}
+                      totalSpamWords={totalSpamWords}
+                      totalHamWords={totalHamWords}
+                      vocabSize={vocabSize}
                       editing={editingWord === word}
                       onEdit={handleEdit}
                       onSave={saveEdit}
@@ -586,9 +577,6 @@
                       editHam={editHam}
                       setEditSpam={setEditSpam}
                       setEditHam={setEditHam}
-                      totalSpamWords={totalSpamWords}
-                      totalHamWords={totalHamWords}
-                      vocabSize={vocabSize}
                     />
                   );
                 })}
@@ -617,39 +605,68 @@
                 value={newHam}
                 onChange={(e) => setNewHam(e.target.value)}
               />
-              <button onClick={handleAddNewWord}><i className="fas fa-plus"></i> Lägg till</button>
+              <button onClick={handleAddNewWord}>
+                <i className="fas fa-plus"></i> Lägg till
+              </button>
             </div>
-            <p>Om du manuellt redigerar värdena i denna tabell används dessa istället för de automatiskt beräknade frekvenserna.</p>
+            <p>
+              Om du manuellt redigerar värdena i denna tabell används dessa istället för de automatiskt beräknade frekvenserna.
+            </p>
           </section>
         );
       }
       
       /*********************
-       * ClassificationSandbox-komponenten *
+       * Uppdaterad BayesFormula-komponent med LaTeX *
+       *********************/
+      function BayesFormula() {
+        return (
+          <div>
+            <h2>Bayes Formel</h2>
+            <div className="formula-container">
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    \\( P(Spam|Ord) = \\frac{P(Ord|Spam) \\cdot P(Spam)}{P(Ord)} \\)
+                  `
+                }}
+              ></div>
+            </div>
+            <p>Där:</p>
+            <ul>
+              <li>\\( P(Spam|Ord) \\): Sannolikhet att mail är spam givet orden</li>
+              <li>\\( P(Ord|Spam) \\): Sannolikhet att orden förekommer i spam</li>
+              <li>\\( P(Spam) \\): Andel spam i träningsdata</li>
+              <li>\\( P(Ord) \\): Sannolikhet att orden förekommer i alla mail</li>
+            </ul>
+          </div>
+        );
+      }
+      
+      /*********************
+       * Uppdaterad ClassificationSandbox med detaljerad uträkning *
        *********************/
       function ClassificationSandbox({ trainingData, customWordCounts }) {
         const [inputText, setInputText] = React.useState("");
         const [result, setResult] = React.useState(null);
         const [useLaplace, setUseLaplace] = React.useState(true);
         const [loading, setLoading] = React.useState(false);
-        const [calculation, setCalculation] = React.useState("");
       
         const classifyEmail = () => {
           setLoading(true);
-          setCalculation("");
           setTimeout(() => {
-            const words = inputText.toLowerCase().match(/\b\w+\b/g) || [];
+            const words = inputText.toLowerCase().match(/[\p{L}\p{N}_]+/gu) || [];
             const spamEmails = trainingData.filter(email => email.label === "spam");
             const hamEmails = trainingData.filter(email => email.label === "ham");
-            const spamCount = spamEmails.length;
-            const hamCount = hamEmails.length;
+            const numSpamEmails = spamEmails.length;
+            const numHamEmails = hamEmails.length;
       
-            if (spamCount === 0 || hamCount === 0) {
+            if (numSpamEmails === 0 || numHamEmails === 0) {
               alert("Det måste finnas både spam och icke-spam i träningsdata!");
               setLoading(false);
               return;
             }
-            
+      
             if (words.length === 0) {
               setResult({
                 error: "Inga ord att klassificera! Lägg till text i e-postmeddelandet."
@@ -662,47 +679,62 @@
             const computedHamCounts = computeWordCounts(hamEmails);
             const vocabulary = new Set();
             trainingData.forEach(email => {
-              (email.text.toLowerCase().match(/\b\w+\b/g) || []).forEach(token => vocabulary.add(token));
+              (email.text.toLowerCase().match(/[\p{L}\p{N}_]+/gu) || []).forEach(token => vocabulary.add(token));
             });
             const vocabSize = vocabulary.size;
+            const totalSpamWords = Object.values(computedSpamCounts).reduce((sum, val) => sum + val, 0);
+            const totalHamWords = Object.values(computedHamCounts).reduce((sum, val) => sum + val, 0);
       
-            // Prior sannolikheter
-            const priorSpam = spamCount / trainingData.length;
-            const priorHam = hamCount / trainingData.length;
+            // Initiala sannolikheter (andel spam/ham e-post)
+            let spamProb = numSpamEmails / trainingData.length;
+            let hamProb = numHamEmails / trainingData.length;
       
-            let prodSpam = 1;
-            let prodHam = 1;
-            let calcDetails = `Prior Spam: ${priorSpam.toFixed(3)}\nPrior Icke-Spam: ${priorHam.toFixed(3)}\n\n`;
+            const calculationSteps = [];
       
             words.forEach(word => {
-              const countSpam = customWordCounts[word]?.spam !== undefined ? customWordCounts[word].spam : (computedSpamCounts[word] || 0);
-              const countHam = customWordCounts[word]?.ham !== undefined ? customWordCounts[word].ham : (computedHamCounts[word] || 0);
+              const countSpam =
+                customWordCounts[word]?.spam !== undefined
+                  ? customWordCounts[word].spam
+                  : (computedSpamCounts[word] || 0);
+              const countHam =
+                customWordCounts[word]?.ham !== undefined
+                  ? customWordCounts[word].ham
+                  : (computedHamCounts[word] || 0);
+              const laplaceAdjust = useLaplace ? 1 : 0;
+              const adjustedVocab = useLaplace ? vocabSize : 0;
+              const probWordSpam = (countSpam + laplaceAdjust) / (totalSpamWords + adjustedVocab);
+              const probWordHam = (countHam + laplaceAdjust) / (totalHamWords + adjustedVocab);
       
-              // Om count är 0, använd Laplace (dvs. lägg till 1 och addera vokabulärstorlek i nämnaren), annars använd "råa" frekvensen
-              const pWordSpam = countSpam === 0 
-                ? (countSpam + 1) / (spamCount + vocabSize)
-                : countSpam / spamCount;
-              const pWordHam = countHam === 0 
-                ? (countHam + 1) / (hamCount + vocabSize)
-                : countHam / hamCount;
+              const prevSpamProb = spamProb;
+              const prevHamProb = hamProb;
       
-              prodSpam *= pWordSpam;
-              prodHam *= pWordHam;
+              spamProb *= probWordSpam;
+              hamProb *= probWordHam;
       
-              calcDetails += `Ord: ${word}\n  Spam: count=${countSpam}, p=${pWordSpam.toFixed(3)}\n  Icke-Spam: count=${countHam}, p=${pWordHam.toFixed(3)}\n\n`;
+              calculationSteps.push({
+                word,
+                countSpam,
+                countHam,
+                probWordSpam,
+                probWordHam,
+                prevSpamProb,
+                prevHamProb,
+                newSpamProb: spamProb,
+                newHamProb: hamProb,
+                applyLaplaceSpam: useLaplace && countSpam === 0,
+                applyLaplaceHam: useLaplace && countHam === 0
+              });
             });
       
-            // Bayes-formeln: P(Spam|Ord) = [P(Ord|Spam)*P(Spam)] / [P(Ord|Spam)*P(Spam) + P(Ord|Icke-Spam)*P(Icke-Spam)]
-            const numerator = priorSpam * prodSpam;
-            const denominator = numerator + (priorHam * prodHam);
-            const finalProb = numerator / denominator;
-      
-            calcDetails += `Numerator: ${priorSpam.toFixed(3)} × ${prodSpam.toExponential(3)} = ${numerator.toExponential(3)}\n`;
-            calcDetails += `Denominator: ${numerator.toExponential(3)} + ${ (priorHam * prodHam).toExponential(3) } = ${denominator.toExponential(3)}\n`;
-            calcDetails += `P(Spam|Ord) = ${finalProb.toExponential(3)}`;
-      
-            setResult({ finalProb });
-            setCalculation(calcDetails);
+            setResult({
+              spamProb,
+              hamProb,
+              calculationSteps,
+              finalLabel: spamProb > hamProb ? "Spam" : "Icke-Spam",
+              totalSpamWords,
+              totalHamWords,
+              vocabSize
+            });
             setLoading(false);
           }, 500);
         };
@@ -716,15 +748,16 @@
               placeholder="Skriv en e-post här..."
               value={inputText}
               onChange={(e) => setInputText(e.target.value)}
+              style={{ resize: "horizontal", maxWidth: "none" }}
             ></textarea>
             <br />
             <label>
-              <input 
-                type="checkbox" 
-                checked={useLaplace} 
-                onChange={(e) => setUseLaplace(e.target.checked)} 
+              <input
+                type="checkbox"
+                checked={useLaplace}
+                onChange={(e) => setUseLaplace(e.target.checked)}
               />{" "}
-              Använd Laplace-utjämning (endast om värdet är 0)
+              Använd Laplace-utjämning
             </label>
             <br />
             <button onClick={classifyEmail}>
@@ -732,19 +765,86 @@
             </button>
             {loading && <p><i className="fas fa-spinner fa-spin"></i> Laddar...</p>}
             <p>
-              Antal spam-mail: {trainingData.filter(e => e.label==="spam").length} | Antal icke-spam: {trainingData.filter(e => e.label==="ham").length}
+              Antal spam-mail: {trainingData.filter(e => e.label === "spam").length} | Antal icke-spam: {trainingData.filter(e => e.label === "ham").length}
             </p>
             {result && (
               <div>
-                <h3>Resultat:</h3>
                 {result.error ? (
                   <p className="warning">{result.error}</p>
                 ) : (
                   <>
-                    <p>P(Spam|Ord) = {result.finalProb.toExponential(3)}</p>
-                    <div className="calculation-details">
-                      {calculation}
-                    </div>
+                    <h3>Detaljerad Uträkning:</h3>
+                    <p>Initiala sannolikheter:</p>
+                    <ul>
+                      <li>
+                        \\( P(Spam) = \\frac{
+                          {trainingData.filter(e => e.label==="spam").length}
+                        }{
+                          {trainingData.length}
+                        } \\)
+                      </li>
+                      <li>
+                        \\( P(Icke\\_Spam) = \\frac{
+                          {trainingData.filter(e => e.label==="ham").length}
+                        }{
+                          {trainingData.length}
+                        } \\)
+                      </li>
+                    </ul>
+      
+                    {result.calculationSteps.map((step, i) => (
+                      <div key={i}>
+                        <h4>Ord {i + 1}: {step.word}</h4>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: `
+                              \\( P(${step.word}|Spam) = \\frac{${step.countSpam}${
+                                step.applyLaplaceSpam ? " + 1" : ""
+                              }}{${result.totalSpamWords}${
+                              step.applyLaplaceSpam ? " + " + result.vocabSize : ""
+                            }} = ${step.probWordSpam.toFixed(3)} \\)
+                            `
+                          }}
+                        ></div>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: `
+                              \\( P(${step.word}|Icke\\_Spam) = \\frac{${step.countHam}${
+                                step.applyLaplaceHam ? " + 1" : ""
+                              }}{${result.totalHamWords}${
+                              step.applyLaplaceHam ? " + " + result.vocabSize : ""
+                            }} = ${step.probWordHam.toFixed(3)} \\)
+                            `
+                          }}
+                        ></div>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: `
+                              \\( P(Spam|\\text{ord}) = ${step.prevSpamProb.toExponential(2)} \\times ${step.probWordSpam.toExponential(2)} = ${step.newSpamProb.toExponential(2)} \\)
+                            `
+                          }}
+                        ></div>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: `
+                              \\( P(Icke\\_Spam|\\text{ord}) = ${step.prevHamProb.toExponential(2)} \\times ${step.probWordHam.toExponential(2)} = ${step.newHamProb.toExponential(2)} \\)
+                            `
+                          }}
+                        ></div>
+                      </div>
+                    ))}
+      
+                    <h3>Slutresultat:</h3>
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: `
+                          \\( P(Spam|\\text{alla ord}) = ${result.spamProb.toExponential(2)} \\)
+                          <br>
+                          \\( P(Icke\\_Spam|\\text{alla ord}) = ${result.hamProb.toExponential(2)} \\)
+                        `
+                      }}
+                    ></div>
+                    <p>Klassificering: <strong>{result.finalLabel}</strong></p>
                   </>
                 )}
               </div>
@@ -764,26 +864,25 @@
               Utmaning: Försök att klassificera en e-post korrekt genom att justera din träningsdata eller ändra ordfrekvenserna!
             </p>
             <p>
-              Felanalys: Om du ignorerar Laplace-utjämning (d.v.s. om ordets count är 0) används istället en utjämning vilket påverkar resultatet.
+              Felanalys: Om du ignorerar Laplace-utjämning kan sannolikheten snabbt bli noll, vilket leder till missvisande resultat.
             </p>
           </section>
         );
       }
       
       /*********************
-       * Huvudkomponenten: App *
+       * Uppdaterad App-komponent med MathJax initialisering *
        *********************/
       function App() {
         const [trainingData, setTrainingData] = React.useState([]);
         const [customWordCounts, setCustomWordCounts] = React.useState({
-          "gratis": { spam: 3, ham: 0 },
-          "vinst": { spam: 2, ham: 0 },
-          "vinn": { spam: 2, ham: 0 },
-          "hej": { spam: 0, ham: 3 },
-          "möte": { spam: 0, ham: 2 }
+          gratis: { spam: 3, ham: 0 },
+          vinst: { spam: 2, ham: 0 },
+          vinn: { spam: 2, ham: 0 },
+          hej: { spam: 0, ham: 3 },
+          möte: { spam: 0, ham: 2 }
         });
       
-        // Hämta träningsdata från en extern JSON-fil (samma mapp)
         React.useEffect(() => {
           fetch("trainingData.json")
             .then((response) => response.json())
@@ -795,27 +894,40 @@
             });
         }, []);
       
-        const spamProbability = trainingData.length > 0 
-          ? trainingData.filter(e => e.label==="spam").length / trainingData.length 
-          : 0;
+        const spamProbability =
+          trainingData.length > 0
+            ? trainingData.filter((e) => e.label === "spam").length / trainingData.length
+            : 0;
+      
+        // MathJax initialisering efter varje rendercykel
+        React.useEffect(() => {
+          if (window.MathJax) {
+            window.MathJax.typeset();
+          }
+        });
       
         return (
           <div>
             <h1>Interaktiv Naive Bayes Demo</h1>
             <GuidedTour />
             <BayesFormula />
-            <div className="spam-probability">Aktuell P(Spam): {spamProbability.toFixed(2)}</div>
+            <div className="spam-probability">
+              Aktuell P(Spam): {spamProbability.toFixed(2)}
+            </div>
             <hr />
             <div className="two-column">
               <TrainingData data={trainingData} updateData={setTrainingData} />
-              <WordFrequencyTable 
-                trainingData={trainingData} 
-                customWordCounts={customWordCounts} 
-                setCustomWordCounts={setCustomWordCounts} 
+              <WordFrequencyTable
+                trainingData={trainingData}
+                customWordCounts={customWordCounts}
+                setCustomWordCounts={setCustomWordCounts}
               />
             </div>
             <hr />
-            <ClassificationSandbox trainingData={trainingData} customWordCounts={customWordCounts} />
+            <ClassificationSandbox
+              trainingData={trainingData}
+              customWordCounts={customWordCounts}
+            />
             <hr />
             <Gamification />
           </div>
