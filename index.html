@@ -258,6 +258,13 @@
         return counts;
       }
       
+      // Hjälpfunktion för att formatera tal i exponentiell form med LaTeX-notation
+      function formatExp(x, digits = 2) {
+        let expStr = x.toExponential(digits);
+        let [mantissa, exponent] = expStr.split("e");
+        return `${mantissa} \\times 10^{${parseInt(exponent)}}`;
+      }
+      
       /**************************
        * GuidedTour-komponenten *
        **************************/
@@ -737,7 +744,7 @@
           }, 500);
         };
       
-        // Räkna ut formler för initiala sannolikheter med template literals
+        // Beräkna initiala formler med template literals
         const numSpam = trainingData.filter(e => e.label === "spam").length;
         const totalEmails = trainingData.length;
         const numHam = trainingData.filter(e => e.label === "ham").length;
@@ -805,14 +812,14 @@
                         <div
                           dangerouslySetInnerHTML={{
                             __html: `
-                              \\( P(Spam|\\text{ord}) = ${step.prevSpamProb.toExponential(2)} \\times ${step.probWordSpam.toExponential(2)} = ${step.newSpamProb.toExponential(2)} \\)
+                              \\( P(Spam|\\text{ord}) = ${formatExp(step.prevSpamProb, 2)} \\times ${formatExp(step.probWordSpam, 2)} = ${formatExp(step.newSpamProb, 2)} \\)
                             `
                           }}
                         ></div>
                         <div
                           dangerouslySetInnerHTML={{
                             __html: `
-                              \\( P(Icke\\_Spam|\\text{ord}) = ${step.prevHamProb.toExponential(2)} \\times ${step.probWordHam.toExponential(2)} = ${step.newHamProb.toExponential(2)} \\)
+                              \\( P(Icke\\_Spam|\\text{ord}) = ${formatExp(step.prevHamProb, 2)} \\times ${formatExp(step.probWordHam, 2)} = ${formatExp(step.newHamProb, 2)} \\)
                             `
                           }}
                         ></div>
@@ -823,9 +830,9 @@
                     <div
                       dangerouslySetInnerHTML={{
                         __html: `
-                          \\( P(Spam|\\text{alla ord}) = ${result.spamProb.toExponential(2)} \\)
+                          \\( P(Spam|\\text{alla ord}) = ${formatExp(result.spamProb, 2)} \\)
                           <br>
-                          \\( P(Icke\\_Spam|\\text{alla ord}) = ${result.hamProb.toExponential(2)} \\)
+                          \\( P(Icke\\_Spam|\\text{alla ord}) = ${formatExp(result.hamProb, 2)} \\)
                         `
                       }}
                     ></div>
