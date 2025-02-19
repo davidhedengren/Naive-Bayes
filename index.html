@@ -5,14 +5,22 @@
     <title>Interaktiv Naive Bayes Demo</title>
     <!-- MathJax för matematisk formelrendering -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
     <!-- Övriga CSS- och script-taggar från originalkoden -->
     <!-- Font Awesome för ikoner -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <!-- React & ReactDOM -->
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <!-- Babel Standalone version 7 -->
+    <!-- Observera: Vi använder nu data-type="text/babel" istället för data-presets -->
     <script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
     <!-- D3.js (för framtida visualiseringar) -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
@@ -230,8 +238,9 @@
       window.React = React;
       window.ReactDOM = ReactDOM;
     </script>
-    <script type="text/babel" data-presets="react,es2015">
-      /* @jsx React.createElement */
+    <!-- Här använder vi data-type istället för data-presets, och vi lägger till @jsxImportSource-kommentaren -->
+    <script type="text/babel" data-type="text/babel">
+      /* @jsxImportSource react */
       
       /********************
        * Hjälpfunktioner *
@@ -836,7 +845,7 @@
       }
       
       /*********************
-       * Uppdaterad App-komponent med MathJax initialisering *
+       * Uppdaterad App-komponent med MathJax-initialisering *
        *********************/
       function App() {
         const [trainingData, setTrainingData] = React.useState([]);
