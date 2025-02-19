@@ -5,17 +5,10 @@
     <title>Interaktiv Naive Bayes Demo</title>
     <!-- MathJax för matematisk formelrendering -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script
-      id="MathJax-script"
-      async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    ></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <!-- Övriga CSS- och script-taggar från originalkoden -->
     <!-- Font Awesome för ikoner -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <!-- React & ReactDOM -->
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
@@ -60,8 +53,7 @@
         color: #3498db;
         margin-bottom: 1rem;
       }
-      h3,
-      h4 {
+      h3, h4 {
         color: #2c3e50;
       }
       /* Sektioner med extra padding */
@@ -70,7 +62,7 @@
         margin-bottom: 2rem;
         background: white;
         border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       }
       /* Tvåkolumnslayout */
       .two-column {
@@ -90,11 +82,10 @@
         display: block;
         border-collapse: collapse;
         margin: 10px 0;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         transition: background-color 0.2s ease;
       }
-      th,
-      td {
+      th, td {
         border: 1px solid #aaa;
         padding: 5px;
         text-align: left;
@@ -163,7 +154,7 @@
       /* Redigeringsfält */
       .editable {
         background-color: #eef;
-        box-shadow: 0 0 3px rgba(52, 152, 219, 0.5);
+        box-shadow: 0 0 3px rgba(52,152,219,0.5);
       }
       /* Interaktivt stapeldiagram */
       .bar-container {
@@ -235,12 +226,10 @@
   </head>
   <body>
     <div id="root"></div>
-    
     <script>
       window.React = React;
       window.ReactDOM = ReactDOM;
     </script>
-    
     <script type="text/babel" data-presets="react,es2015">
       /* @jsx React.createElement */
       
@@ -625,22 +614,16 @@
        * Uppdaterad BayesFormula-komponent med LaTeX *
        *********************/
       function BayesFormula() {
+        // Använd en enkel sträng utan inbäddade radbrytningar
+        const formula = "\\[ P(\\text{Spam}|\\text{Ord}) = \\frac{P(\\text{Ord}|\\text{Spam}) \\cdot P(\\text{Spam})}{P(\\text{Ord})} \\]";
         return (
           <div>
             <h2>Bayes Formel</h2>
-            <div className="formula-container">
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: `\\[
-                    P(\\text{Spam}|\\text{Ord}) = \\frac{P(\\text{Ord}|\\text{Spam}) \\cdot P(\\text{Spam})}{P(\\text{Ord})}
-                  \\]`
-                }}
-              ></div>
-            </div>
+            <div className="formula-container" dangerouslySetInnerHTML={{ __html: formula }}></div>
             <p>Där:</p>
             <ul>
               <li>
-                \\( P(\\text{Spam}|\\text{Ord}) \\) är sannolikheten att ett mail är spam givet att de angivna orden förekommer.
+                \\( P(\\text{Spam}|\\text{Ord}) \\) är sannolikheten att ett mail är spam, givet att de angivna orden förekommer.
               </li>
               <li>
                 \\( P(\\text{Ord}|\\text{Spam}) \\) beräknas som antalet gånger de angivna orden förekommer i spam dividerat med det totala antalet ord i alla spam-mail.
@@ -649,7 +632,7 @@
                 \\( P(\\text{Spam}) \\) är andelen mail som är spam (antalet spam-mail delat med totalt antal mail).
               </li>
               <li>
-                \\( P(\\text{Ord}) \\) är sannolikheten att de angivna orden förekommer i ett mail, dvs. hur ofta de förekommer i all e-post.
+                \\( P(\\text{Ord}) \\) är sannolikheten att de angivna orden förekommer i ett mail.
               </li>
             </ul>
           </div>
@@ -705,14 +688,8 @@
             const calculationSteps = [];
       
             words.forEach(word => {
-              const countSpam =
-                customWordCounts[word]?.spam !== undefined
-                  ? customWordCounts[word].spam
-                  : (computedSpamCounts[word] || 0);
-              const countHam =
-                customWordCounts[word]?.ham !== undefined
-                  ? customWordCounts[word].ham
-                  : (computedHamCounts[word] || 0);
+              const countSpam = customWordCounts[word]?.spam !== undefined ? customWordCounts[word].spam : (computedSpamCounts[word] || 0);
+              const countHam = customWordCounts[word]?.ham !== undefined ? customWordCounts[word].ham : (computedHamCounts[word] || 0);
               const laplaceAdjust = useLaplace ? 1 : 0;
               const adjustedVocab = useLaplace ? vocabSize : 0;
               const probWordSpam = (countSpam + laplaceAdjust) / (totalSpamWords + adjustedVocab);
@@ -805,30 +782,22 @@
                         <h4>Ord {i + 1}: {step.word}</h4>
                         <div
                           dangerouslySetInnerHTML={{
-                            __html: `
-                              \\( P(${step.word}|\\text{Spam}) = \\frac{${step.countSpam}${step.applyLaplaceSpam ? ' + 1' : ''}}{${result.totalSpamWords}${step.applyLaplaceSpam ? ' + ' + result.vocabSize : ''}} = ${step.probWordSpam.toFixed(3)} \\)
-                            `
+                            __html: `\\( P(${step.word}|\\text{Spam}) = \\frac{${step.countSpam}${step.applyLaplaceSpam ? " + 1" : ""}}{${result.totalSpamWords}${step.applyLaplaceSpam ? " + " + result.vocabSize : ""}} = ${step.probWordSpam.toFixed(3)} \\)`
                           }}
                         ></div>
                         <div
                           dangerouslySetInnerHTML={{
-                            __html: `
-                              \\( P(${step.word}|\\text{Icke\\_Spam}) = \\frac{${step.countHam}${step.applyLaplaceHam ? ' + 1' : ''}}{${result.totalHamWords}${step.applyLaplaceHam ? ' + ' + result.vocabSize : ''}} = ${step.probWordHam.toFixed(3)} \\)
-                            `
+                            __html: `\\( P(${step.word}|\\text{Icke\\_Spam}) = \\frac{${step.countHam}${step.applyLaplaceHam ? " + 1" : ""}}{${result.totalHamWords}${step.applyLaplaceHam ? " + " + result.vocabSize : ""}} = ${step.probWordHam.toFixed(3)} \\)`
                           }}
                         ></div>
                         <div
                           dangerouslySetInnerHTML={{
-                            __html: `
-                              \\( P(\\text{Spam}|\\text{ord}) = ${formatExp(step.prevSpamProb, 2)} \\times ${formatExp(step.probWordSpam, 2)} = ${formatExp(step.newSpamProb, 2)} \\)
-                            `
+                            __html: `\\( P(\\text{Spam}|\\text{ord}) = ${formatExp(step.prevSpamProb, 2)} \\times ${formatExp(step.probWordSpam, 2)} = ${formatExp(step.newSpamProb, 2)} \\)`
                           }}
                         ></div>
                         <div
                           dangerouslySetInnerHTML={{
-                            __html: `
-                              \\( P(\\text{Icke\\_Spam}|\\text{ord}) = ${formatExp(step.prevHamProb, 2)} \\times ${formatExp(step.probWordHam, 2)} = ${formatExp(step.newHamProb, 2)} \\)
-                            `
+                            __html: `\\( P(\\text{Icke\\_Spam}|\\text{ord}) = ${formatExp(step.prevHamProb, 2)} \\times ${formatExp(step.probWordHam, 2)} = ${formatExp(step.newHamProb, 2)} \\)`
                           }}
                         ></div>
                       </div>
@@ -837,11 +806,7 @@
                     <h3>Slutresultat:</h3>
                     <div
                       dangerouslySetInnerHTML={{
-                        __html: `
-                          \\( P(\\text{Spam}|\\text{alla ord}) = ${formatExp(result.spamProb, 2)} \\)
-                          <br>
-                          \\( P(\\text{Icke\\_Spam}|\\text{alla ord}) = ${formatExp(result.hamProb, 2)} \\)
-                        `
+                        __html: `\\( P(\\text{Spam}|\\text{alla ord}) = ${formatExp(result.spamProb, 2)} \\)<br>\\( P(\\text{Icke\\_Spam}|\\text{alla ord}) = ${formatExp(result.hamProb, 2)} \\)`
                       }}
                     ></div>
                     <p>Klassificering: <strong>{result.finalLabel}</strong></p>
@@ -899,7 +864,7 @@
             ? trainingData.filter((e) => e.label === "spam").length / trainingData.length
             : 0;
       
-        // MathJax initialisering efter varje rendercykel
+        // MathJax-initialisering efter varje rendercykel
         React.useEffect(() => {
           if (window.MathJax) {
             window.MathJax.typeset();
