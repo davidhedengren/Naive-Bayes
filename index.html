@@ -5,10 +5,16 @@
     <title>Interaktiv Naive Bayes Demo</title>
     <!-- MathJax för matematisk formelrendering -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <!-- Övriga CSS- och script-taggar från originalkoden -->
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
     <!-- Font Awesome för ikoner -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <!-- React & ReactDOM -->
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
@@ -21,8 +27,17 @@
       delete window.d3;
     </script>
     <!-- MathLive (för matematiska uttryck) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mathlive/0.69.4/mathlive.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathlive/0.69.4/mathlive.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mathlive/0.69.4/mathlive.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathlive/0.69.4/mathlive.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <style>
       /* Grundläggande typografi och färgpalett */
       body {
@@ -221,17 +236,15 @@
       window.React = React;
       window.ReactDOM = ReactDOM;
     </script>
-    <!-- Vi använder nu endast type="text/babel" och lägger till JSX-import-kommentaren -->
-    <script type="text/babel">
-      /* @jsxImportSource react */
-      
+    <!-- Observera: Vi använder nu data-presets="react" -->
+    <script type="text/babel" data-presets="react">
       /********************
        * Hjälpfunktioner *
        ********************/
       function computeWordCounts(emails) {
-        // Ändrad regex: matchar A-Z, a-z, siffror och latinska bokstäver med accenter (inklusive svenska Å, Ä, Ö)
         const counts = {};
         emails.forEach((email) => {
+          // Regex för att matcha A-Z, a-z, siffror samt bokstäver med accenter (inklusive svenska)
           const tokens = email.text.toLowerCase().match(/[A-Za-zÀ-ÖØ-öø-ÿ0-9_]+/g) || [];
           tokens.forEach((token) => {
             counts[token] = (counts[token] || 0) + 1;
@@ -240,7 +253,6 @@
         return counts;
       }
       
-      // Hjälpfunktion för att formatera tal i exponentiell form med LaTeX-notation
       function formatExp(x, digits = 2) {
         let expStr = x.toExponential(digits);
         let [mantissa, exponent] = expStr.split("e");
@@ -264,7 +276,7 @@
       }
       
       /**************************
-       * Uppdaterad WordFrequencyRow-komponent *
+       * WordFrequencyRow-komponenten *
        **************************/
       function WordFrequencyRow({
         word,
@@ -284,17 +296,17 @@
       }) {
         const applyLaplaceSpam = spamCount === 0;
         const applyLaplaceHam = hamCount === 0;
-        
+      
         const pWordSpam = (applyLaplaceSpam
           ? 1 / (totalSpamWords + vocabSize)
           : spamCount / totalSpamWords
         ).toFixed(3);
-        
+      
         const pWordHam = (applyLaplaceHam
           ? 1 / (totalHamWords + vocabSize)
           : hamCount / totalHamWords
         ).toFixed(3);
-        
+      
         const tooltipSpam = applyLaplaceSpam
           ? "Beräknat med Laplace-utjämning: (0 + 1) / (totalt antal ord i spam + vokabulärens storlek)"
           : `Beräknat utan Laplace: ${spamCount} / ${totalSpamWords}`;
@@ -604,10 +616,9 @@
       }
       
       /*********************
-       * Uppdaterad BayesFormula-komponent med LaTeX *
+       * BayesFormula-komponenten *
        *********************/
       function BayesFormula() {
-        // Använd en enkel sträng utan inbäddade radbrytningar
         const formula = "\\[ P(\\text{Spam}|\\text{Ord}) = \\frac{P(\\text{Ord}|\\text{Spam}) \\cdot P(\\text{Spam})}{P(\\text{Ord})} \\]";
         return (
           <div>
@@ -633,7 +644,7 @@
       }
       
       /*********************
-       * Uppdaterad ClassificationSandbox med detaljerad uträkning *
+       * ClassificationSandbox-komponenten *
        *********************/
       function ClassificationSandbox({ trainingData, customWordCounts }) {
         const [inputText, setInputText] = React.useState("");
@@ -674,7 +685,6 @@
             const totalSpamWords = Object.values(computedSpamCounts).reduce((sum, val) => sum + val, 0);
             const totalHamWords = Object.values(computedHamCounts).reduce((sum, val) => sum + val, 0);
       
-            // Initiala sannolikheter
             let spamProb = numSpamEmails / trainingData.length;
             let hamProb = numHamEmails / trainingData.length;
       
@@ -722,7 +732,6 @@
           }, 500);
         };
       
-        // Beräkna initiala formler med template literals
         const numSpam = trainingData.filter(e => e.label === "spam").length;
         const totalEmails = trainingData.length;
         const numHam = trainingData.filter(e => e.label === "ham").length;
@@ -829,7 +838,7 @@
       }
       
       /*********************
-       * Uppdaterad App-komponent med MathJax-initialisering *
+       * App-komponenten *
        *********************/
       function App() {
         const [trainingData, setTrainingData] = React.useState([]);
@@ -857,12 +866,12 @@
             ? trainingData.filter((e) => e.label === "spam").length / trainingData.length
             : 0;
       
-        // MathJax-initialisering efter varje rendercykel
+        // MathJax-initialisering med dependency-array
         React.useEffect(() => {
           if (window.MathJax) {
             window.MathJax.typeset();
           }
-        });
+        }, [trainingData, customWordCounts]);
       
         return (
           <div>
