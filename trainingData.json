@@ -2606,7 +2606,7 @@
   },
   {
     "id": 522,
-    "text": "Hej, ta del av vårt senaste spam-möte där vi presenterar ett unikt gratis erbjudande för utvalda kunder.",
+    "text": "Hej, ta del av vårt senaste erbjudande, vinn en resa!",
     "label": "spam"
   },
   {
@@ -2706,12 +2706,12 @@
   },
   {
     "id": 542,
-    "text": "Kund, missa inte: Delta i vårt exklusiva spam-möte och ta del av gratis bonusar.",
+    "text": "Dags för ny bil? 10% rabatt bara idag!",
     "label": "spam"
   },
   {
     "id": 543,
-    "text": "Specialerbjudande! Vinn en gratis resa till Gotland. Detta spam-erbjudande är bara för utvalda kunder.",
+    "text": "Vinn en gratis resa till Gotland. Bara för utvalda kunder.",
     "label": "spam"
   },
   {
@@ -2721,7 +2721,7 @@
   },
   {
     "id": 545,
-    "text": "Kundinformation: Delta i vårt spam-möte och ta del av ett unikt gratis erbjudande som inte kan missas.",
+    "text": "Kundinformation: Delta i vår nya undersökning och ta del av ett unikt gratis erbjudande som inte kan missas.",
     "label": "spam"
   },
   {
@@ -2731,12 +2731,12 @@
   },
   {
     "id": 547,
-    "text": "Erbjudande: Bli en värdefull kund genom att delta i vårt kommande spam-möte och få gratis gåvor.",
+    "text": "Registrera dig via länken för gratisprodukter.",
     "label": "spam"
   },
   {
     "id": 548,
-    "text": "Hej, vårt senaste spam-erbjudande: Vinn en gratis smartphone. Endast för utvalda kunder!",
+    "text": "Casino-direkt, ingen registrering krävs",
     "label": "spam"
   },
   {
@@ -2746,7 +2746,7 @@
   },
   {
     "id": 550,
-    "text": "Hej, missa inte detta: Vinn gratis produkter och få exklusiva erbjudanden som kund i vårt spam-möte.",
+    "text": "Hej, glöm inte registrera dig för bästa rabatterna.",
     "label": "spam"
   },
   {
@@ -2766,7 +2766,7 @@
   },
   {
     "id": 554,
-    "text": "Specialerbjudande: Delta i vårt spam-möte och få gratis bonusar som värdefull kund!",
+    "text": "Dejting på nätet, ett möte med din blivande partner",
     "label": "spam"
   },
   {
@@ -2851,12 +2851,12 @@
   },
   {
     "id": 571,
-    "text": "Hej, exklusivt spam-erbjudande: Få en gratis prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "text": "Lagerutrensning: Upp till 50% rabatt",
     "label": "spam"
   },
   {
     "id": 572,
-    "text": "Kund, missa inte detta: Delta i vårt spam-möte och ta del av gratis bonusar direkt.",
+    "text": "Missa inte detta! bästa rabatterna bara idag",
     "label": "spam"
   },
   {
@@ -2866,17 +2866,17 @@
   },
   {
     "id": 574,
-    "text": "Hej, ta del av vårt unika spam-erbjudande med gratis frakt på alla beställningar.",
+    "text": "Hej, Lagerutrensning: Få 50% rabatt och gratis gåvor",
     "label": "spam"
   },
   {
     "id": 575,
-    "text": "Erbjudande: Bli en värdefull kund och delta i vårt spam-möte för att få gratis rabatter!",
+    "text": "Erbjudande: Leasa din bil från 3800 kr",
     "label": "spam"
   },
   {
     "id": 576,
-    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt och gratis gåvor – registrera dig nu!",
+    "text": "Lagerutrensning: Få 50% rabatt och gratis gåvor – registrera dig nu!",
     "label": "spam"
   },
   {
@@ -2886,7 +2886,7 @@
   },
   {
     "id": 578,
-    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt spam-erbjudande!",
+    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt erbjudande!",
     "label": "spam"
   },
   {
@@ -2896,7 +2896,7 @@
   },
   {
     "id": 580,
-    "text": "Hej, ta del av detta unika spam-erbjudande: Gratis presentkort för alla utvalda kunder!",
+    "text": "Hej, ta del av detta unika erbjudande: Gratis presentkort för alla utvalda kunder!",
     "label": "spam"
   },
   {
@@ -2906,7 +2906,7 @@
   },
   {
     "id": 582,
-    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – detta spam-erbjudande gäller endast idag!",
+    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – detta erbjudande gäller endast idag!",
     "label": "spam"
   },
   {
@@ -2916,17 +2916,17 @@
   },
   {
     "id": 584,
-    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt event. Erbjudandet är exklusivt!",
     "label": "spam"
   },
   {
     "id": 585,
-    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte. Inga spam-erbjudanden ingår.",
+    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte.",
     "label": "ham"
   },
   {
     "id": 586,
-    "text": "Viktig information: Vi har ett nytt spam-erbjudande med gratis tillgång till våra tjänster. Registrera dig nu!",
+    "text": "Viktig information: Vi har ett nytt erbjudande med gratis tillgång till våra tjänster. Registrera dig nu!",
     "label": "spam"
   },
   {
@@ -2946,7 +2946,7 @@
   },
   {
     "id": 590,
-    "text": "Specialerbjudande: Ta del av vårt spam-erbjudande och få gratis bonusar – endast för utvalda kunder!",
+    "text": "Specialerbjudande: Ta del av vårt nya utbud och få gratis bonusar – endast för utvalda kunder!",
     "label": "spam"
   },
   {
@@ -3001,12 +3001,12 @@
   },
   {
     "id": 601,
-    "text": "Hej, ta del av detta exklusiva spam-erbjudande: Få en gratis prenumeration på vårt digitala nyhetsbrev!",
+    "text": "Hej, ta del av detta exklusiva: Få en gratis prenumeration på vårt digitala nyhetsbrev!",
     "label": "spam"
   },
   {
     "id": 602,
-    "text": "Kund, missa inte chansen att delta i vårt spam-möte och få gratis bonusar direkt!",
+    "text": "Bästa kund, missa inte chansen att delta i undersökningen och få gratis bonusar direkt!",
     "label": "spam"
   },
   {
@@ -3016,32 +3016,32 @@
   },
   {
     "id": 604,
-    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
+    "text": "Hej, vårt senaste: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
     "label": "spam"
   },
   {
     "id": 605,
-    "text": "Kundinformation: Delta i vårt spam-möte och ta del av ett unikt gratis erbjudande för våra kunder.",
+    "text": "50% rabatt! klicka på länken",
     "label": "spam"
   },
   {
     "id": 606,
-    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva spam-erbjudanden nu!",
+    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva erbjudanden nu!",
     "label": "spam"
   },
   {
     "id": 607,
-    "text": "Erbjudande: Bli en värdefull kund genom att delta i vårt kommande spam-möte och få gratis gåvor.",
+    "text": "Vinn en resa till värmen! ditt möte med solen",
     "label": "spam"
   },
   {
     "id": 608,
-    "text": "Hej, vårt senaste spam-erbjudande: Vinn en gratis surfplatta. Endast för utvalda kunder!",
+    "text": "Vinn en gratis surfplatta. Endast för utvalda kunder!",
     "label": "spam"
   },
   {
     "id": 609,
-    "text": "Specialerbjudande! Ta del av ett exklusivt spam-erbjudande och delta i vårt möte för gratis bonusar.",
+    "text": "Specialerbjudande! Delta i vårt möte för gratis bonusar.",
     "label": "spam"
   },
   {
@@ -3101,7 +3101,7 @@
   },
   {
     "id": 621,
-    "text": "Hej, exklusivt spam-erbjudande: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "text": "Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
     "label": "spam"
   },
   {
@@ -3126,7 +3126,7 @@
   },
   {
     "id": 626,
-    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt och gratis gåvor – registrera dig nu!",
+    "text": "Vad sägs som ett möte med nya människor. Registrera dig via länken!",
     "label": "spam"
   },
   {
@@ -3171,7 +3171,7 @@
   },
   {
     "id": 635,
-    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte. Inga spam-erbjudanden ingår.",
+    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte. Bra erbjudande denna gången.",
     "label": "ham"
   },
   {
@@ -3196,7 +3196,7 @@
   },
   {
     "id": 640,
-    "text": "Specialerbjudande: Ta del av vårt spam-erbjudande och få gratis bonusar – endast för utvalda kunder!",
+    "text": "Specialerbjudande: Ta del av våra senaste erbjudanden och få gratis bonusar – endast för utvalda kunder!",
     "label": "spam"
   },
   {
@@ -3251,7 +3251,7 @@
   },
   {
     "id": 651,
-    "text": "Hej, ta del av detta exklusiva spam-erbjudande: Få en gratis prenumeration på vårt digitala nyhetsbrev!",
+    "text": "Hej [namn]! Få en gratis prenumeration på vårt digitala nyhetsbrev!",
     "label": "spam"
   },
   {
@@ -3266,7 +3266,7 @@
   },
   {
     "id": 654,
-    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
+    "text": "Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
     "label": "spam"
   },
   {
@@ -3276,7 +3276,7 @@
   },
   {
     "id": 656,
-    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva spam-erbjudanden nu!",
+    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar!",
     "label": "spam"
   },
   {
@@ -3286,12 +3286,12 @@
   },
   {
     "id": 658,
-    "text": "Hej, vårt senaste spam-erbjudande: Vinn en gratis surfplatta. Endast för utvalda kunder!",
+    "text": "Vinn en gratis surfplatta. Endast för utvalda kunder!",
     "label": "spam"
   },
   {
     "id": 659,
-    "text": "Specialerbjudande! Ta del av ett exklusivt spam-erbjudande och delta i vårt möte för gratis bonusar.",
+    "text": "Upplev ett möte med nya människor. Registrera dig idag!",
     "label": "spam"
   },
   {
@@ -3351,7 +3351,7 @@
   },
   {
     "id": 671,
-    "text": "Hej, exklusivt spam-erbjudande: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "text": "Hej, exklusivt för dig: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
     "label": "spam"
   },
   {
@@ -3366,7 +3366,7 @@
   },
   {
     "id": 674,
-    "text": "Hej, ta del av vårt unika spam-erbjudande med gratis frakt på alla beställningar.",
+    "text": "Hej, ta del av vårt unika erbjudande med gratis frakt på alla beställningar.",
     "label": "spam"
   },
   {
@@ -3376,7 +3376,7 @@
   },
   {
     "id": 676,
-    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt och gratis gåvor – registrera dig nu!",
+    "text": "DU HAR VUNNIT! klicka här för att ta del av vinsten",
     "label": "spam"
   },
   {
@@ -3386,7 +3386,7 @@
   },
   {
     "id": 678,
-    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt spam-erbjudande!",
+    "text": "VINNARE! klicka här för att ta del av vinsten",
     "label": "spam"
   },
   {
@@ -3396,7 +3396,7 @@
   },
   {
     "id": 680,
-    "text": "Hej, ta del av detta unika spam-erbjudande: Gratis presentkort för alla utvalda kunder!",
+    "text": "Du har vunnit 1000 kr! Klicka på länken för att läsa mer.",
     "label": "spam"
   },
   {
@@ -3406,7 +3406,7 @@
   },
   {
     "id": 682,
-    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – detta spam-erbjudande gäller endast idag!",
+    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – erbjudantet gäller endast idag!",
     "label": "spam"
   },
   {
@@ -3421,12 +3421,12 @@
   },
   {
     "id": 685,
-    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte. Inga spam-erbjudanden ingår.",
+    "text": "Hej, klicka inte på några länkar. Det kan vara spam",
     "label": "ham"
   },
   {
     "id": 686,
-    "text": "Viktig information: Vi har ett nytt spam-erbjudande med gratis tillgång till våra tjänster. Registrera dig nu!",
+    "text": "Du har vunnit! Klicka på länken för att läsa mer.",
     "label": "spam"
   },
   {
@@ -3446,7 +3446,7 @@
   },
   {
     "id": 690,
-    "text": "Specialerbjudande: Ta del av vårt spam-erbjudande och få gratis bonusar – endast för utvalda kunder!",
+    "text": "Klicka på länken för att läsa mer om din gåva.",
     "label": "spam"
   },
   {
@@ -3501,7 +3501,7 @@
   },
   {
     "id": 701,
-    "text": "Hej, exklusivt spam-erbjudande: Få en gratis prenumeration på vårt digitala nyhetsbrev!",
+    "text": "Hej! Få en gratis prenumeration på vårt digitala nyhetsbrev!",
     "label": "spam"
   },
   {
@@ -3516,7 +3516,7 @@
   },
   {
     "id": 704,
-    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
+    "text": "Hej, vårt senaste erbjudande: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
     "label": "spam"
   },
   {
@@ -3526,7 +3526,7 @@
   },
   {
     "id": 706,
-    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva spam-erbjudanden nu!",
+    "text": "Hej, vinstmöjlighet! Klicka på länken för att läsa mer.",
     "label": "spam"
   },
   {
@@ -3541,7 +3541,7 @@
   },
   {
     "id": 709,
-    "text": "Specialerbjudande! Ta del av ett exklusivt spam-erbjudande och delta i vårt möte för gratis bonusar.",
+    "text": "Specialerbjudande! Klicka på länken för att läsa mer.",
     "label": "spam"
   },
   {
@@ -3601,7 +3601,7 @@
   },
   {
     "id": 721,
-    "text": "Hej, exklusivt spam-erbjudande: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "text": "Hej, exklusiva gratis erbjudande: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
     "label": "spam"
   },
   {
@@ -3616,17 +3616,17 @@
   },
   {
     "id": 724,
-    "text": "Hej, ta del av vårt unika spam-erbjudande med gratis frakt på alla beställningar.",
+    "text": "Hej, ta del av vårt unika extraerbjudande med gratis frakt på alla beställningar.",
     "label": "spam"
   },
   {
     "id": 725,
-    "text": "Erbjudande: Bli en värdefull kund och delta i vårt spam-möte för att få gratis rabatter!",
+    "text": "Erbjudande: ange koden i länken för att få gratis rabatter!",
     "label": "spam"
   },
   {
     "id": 726,
-    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt och gratis gåvor – registrera dig nu!",
+    "text": "Hej! Få 50% rabatt och gratis gåvor – registrera dig nu!",
     "label": "spam"
   },
   {
@@ -3636,7 +3636,7 @@
   },
   {
     "id": 728,
-    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt spam-erbjudande!",
+    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt exklusiva erbjudande!",
     "label": "spam"
   },
   {
@@ -3646,7 +3646,7 @@
   },
   {
     "id": 730,
-    "text": "Hej, ta del av detta unika spam-erbjudande: Gratis presentkort för alla utvalda kunder!",
+    "text": "Hej, ta del av detta unika rabatter: Gratis presentkort för alla utvalda kunder!",
     "label": "spam"
   },
   {
@@ -3656,7 +3656,7 @@
   },
   {
     "id": 732,
-    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – detta spam-erbjudande gäller endast idag!",
+    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – Gäller endast idag!",
     "label": "spam"
   },
   {
@@ -3676,7 +3676,7 @@
   },
   {
     "id": 736,
-    "text": "Viktig information: Vi har ett nytt spam-erbjudande med gratis tillgång till våra tjänster. Registrera dig nu!",
+    "text": "Viktig information: För gratis tillgång till våra tjänster. Registrera dig nu!",
     "label": "spam"
   },
   {
@@ -3696,7 +3696,7 @@
   },
   {
     "id": 740,
-    "text": "Specialerbjudande: Ta del av vårt spam-erbjudande och få gratis bonusar – endast för utvalda kunder!",
+    "text": "Specialerbjudande: Ta del av våra gratisbonusar – endast för utvalda kunder!",
     "label": "spam"
   },
   {
@@ -3751,7 +3751,7 @@
   },
   {
     "id": 751,
-    "text": "Hej, ta del av detta exklusiva spam-erbjudande: Få en gratis prenumeration på vårt digitala nyhetsbrev!",
+    "text": "Få en gratis prenumeration på vårt digitala nyhetsbrev!",
     "label": "spam"
   },
   {
@@ -3766,17 +3766,17 @@
   },
   {
     "id": 754,
-    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
+    "text": "Hej, missa inte : Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
     "label": "spam"
   },
   {
     "id": 755,
-    "text": "Kundinformation: Delta i vårt spam-möte och ta del av ett unikt gratis erbjudande för våra kunder.",
+    "text": "Upplev solen, ett möte med ditt inre.",
     "label": "spam"
   },
   {
     "id": 756,
-    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva spam-erbjudanden nu!",
+    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva gåvor nu!",
     "label": "spam"
   },
   {
@@ -3786,12 +3786,12 @@
   },
   {
     "id": 758,
-    "text": "Hej, vårt senaste spam-erbjudande: Vinn en gratis surfplatta. Endast för utvalda kunder!",
+    "text": "Hej, vårt senaste erbjudande: Vinn en gratis surfplatta. Endast för utvalda kunder!",
     "label": "spam"
   },
   {
     "id": 759,
-    "text": "Specialerbjudande! Ta del av ett exklusivt spam-erbjudande och delta i vårt möte för gratis bonusar.",
+    "text": "Specialerbjudande! Delta i vårt möte för gratis bonusar.",
     "label": "spam"
   },
   {
@@ -3851,12 +3851,12 @@
   },
   {
     "id": 771,
-    "text": "Hej, exklusivt spam-erbjudande: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "text": "Hej bästa kund! Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
     "label": "spam"
   },
   {
     "id": 772,
-    "text": "Kund, missa inte detta: Delta i vårt spam-möte och ta del av gratis bonusar direkt.",
+    "text": "Kund, missa inte detta: Delta i vårt online-möte och ta del av gratis bonusar direkt.",
     "label": "spam"
   },
   {
@@ -3871,7 +3871,7 @@
   },
   {
     "id": 775,
-    "text": "Erbjudande: Bli en värdefull kund och delta i vårt spam-möte för att få gratis rabatter!",
+    "text": "Nordens största online-casino! Registrera dig idag för 100 kr extra",
     "label": "spam"
   },
   {
