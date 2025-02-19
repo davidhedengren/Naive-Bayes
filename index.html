@@ -247,7 +247,6 @@
       /********************
        * Hjälpfunktioner *
        ********************/
-      // Funktion för att räkna ord med Unicode-stöd
       function computeWordCounts(emails) {
         const counts = {};
         emails.forEach((email) => {
@@ -294,7 +293,6 @@
         setEditSpam,
         setEditHam
       }) {
-        // Om antalet är 0 används Laplace-utjämning
         const applyLaplaceSpam = spamCount === 0;
         const applyLaplaceHam = hamCount === 0;
         
@@ -685,7 +683,7 @@
             const totalSpamWords = Object.values(computedSpamCounts).reduce((sum, val) => sum + val, 0);
             const totalHamWords = Object.values(computedHamCounts).reduce((sum, val) => sum + val, 0);
       
-            // Initiala sannolikheter (andel spam/ham e-post)
+            // Initiala sannolikheter
             let spamProb = numSpamEmails / trainingData.length;
             let hamProb = numHamEmails / trainingData.length;
       
@@ -739,6 +737,13 @@
           }, 500);
         };
       
+        // Räkna ut formler för initiala sannolikheter med template literals
+        const numSpam = trainingData.filter(e => e.label === "spam").length;
+        const totalEmails = trainingData.length;
+        const numHam = trainingData.filter(e => e.label === "ham").length;
+        const spamFormula = `\\( P(Spam) = \\frac{${numSpam}}{${totalEmails}} \\)`;
+        const hamFormula = `\\( P(Icke\\_Spam) = \\frac{${numHam}}{${totalEmails}} \\)`;
+      
         return (
           <section>
             <h2>Sandlådeläge för Klassificering</h2>
@@ -776,20 +781,8 @@
                     <h3>Detaljerad Uträkning:</h3>
                     <p>Initiala sannolikheter:</p>
                     <ul>
-                      <li>
-                        \\( P(Spam) = \\frac{
-                          {trainingData.filter(e => e.label==="spam").length}
-                        }{
-                          {trainingData.length}
-                        } \\)
-                      </li>
-                      <li>
-                        \\( P(Icke\\_Spam) = \\frac{
-                          {trainingData.filter(e => e.label==="ham").length}
-                        }{
-                          {trainingData.length}
-                        } \\)
-                      </li>
+                      <li dangerouslySetInnerHTML={{ __html: spamFormula }}></li>
+                      <li dangerouslySetInnerHTML={{ __html: hamFormula }}></li>
                     </ul>
       
                     {result.calculationSteps.map((step, i) => (
@@ -798,22 +791,14 @@
                         <div
                           dangerouslySetInnerHTML={{
                             __html: `
-                              \\( P(${step.word}|Spam) = \\frac{${step.countSpam}${
-                                step.applyLaplaceSpam ? " + 1" : ""
-                              }}{${result.totalSpamWords}${
-                              step.applyLaplaceSpam ? " + " + result.vocabSize : ""
-                            }} = ${step.probWordSpam.toFixed(3)} \\)
+                              \\( P(${step.word}|Spam) = \\frac{${step.countSpam}${step.applyLaplaceSpam ? ' + 1' : ''}}{${result.totalSpamWords}${step.applyLaplaceSpam ? ' + ' + result.vocabSize : ''}} = ${step.probWordSpam.toFixed(3)} \\)
                             `
                           }}
                         ></div>
                         <div
                           dangerouslySetInnerHTML={{
                             __html: `
-                              \\( P(${step.word}|Icke\\_Spam) = \\frac{${step.countHam}${
-                                step.applyLaplaceHam ? " + 1" : ""
-                              }}{${result.totalHamWords}${
-                              step.applyLaplaceHam ? " + " + result.vocabSize : ""
-                            }} = ${step.probWordHam.toFixed(3)} \\)
+                              \\( P(${step.word}|Icke\\_Spam) = \\frac{${step.countHam}${step.applyLaplaceHam ? ' + 1' : ''}}{${result.totalHamWords}${step.applyLaplaceHam ? ' + ' + result.vocabSize : ''}} = ${step.probWordHam.toFixed(3)} \\)
                             `
                           }}
                         ></div>
