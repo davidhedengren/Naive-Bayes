@@ -2498,8 +2498,2510 @@
     "id": 500,
     "text": "Exklusivt erbjudande: Få 50% rabatt på alla beställningar vid registrering idag – erbjudandet gäller bara begränsad tid!",
     "label": "spam"
+  },
+  {
+    "id": 501,
+    "text": "Hej, grattis! Du har vunnit en gratis resa till Stockholm. Använd koden VIP501 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 502,
+    "text": "Kundinformation: Erbjudande för våra trogna kunder! Delta i vårt exklusiva möte och vinn gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 503,
+    "text": "Fynda nu! Få 50% rabatt på elektronik – detta erbjudande gäller endast idag. Missa inte chansen!",
+    "label": "spam"
+  },
+  {
+    "id": 504,
+    "text": "Hej kund, upplev vårt unika erbjudande och delta i vårt kommande möte för exklusiva rabatter.",
+    "label": "spam"
+  },
+  {
+    "id": 505,
+    "text": "Specialerbjudande! Få en gratis testversion av vårt nya program och bli en värdefull kund.",
+    "label": "spam"
+  },
+  {
+    "id": 506,
+    "text": "Vinn stort! Anmäl dig nu och ta del av vårt hemliga erbjudande – gratis bonusar väntar.",
+    "label": "spam"
+  },
+  {
+    "id": 507,
+    "text": "Hej, som kund har du nu möjlighet att delta i ett exklusivt möte med våra experter. Ta del av erbjudandet idag!",
+    "label": "spam"
+  },
+  {
+    "id": 508,
+    "text": "Erbjudande! Köp nu och få gratis tillgång till våra premiumtjänster. Detta är ett unikt spam-erbjudande.",
+    "label": "spam"
+  },
+  {
+    "id": 509,
+    "text": "Grattis, kund! Du har blivit utvald att vinna en gratis gadget. Klicka här för att få ditt erbjudande.",
+    "label": "spam"
+  },
+  {
+    "id": 510,
+    "text": "Hej, delta i vårt nästa möte och upptäck vårt hemliga erbjudande med gratis bonusar för våra kunder.",
+    "label": "spam"
+  },
+  {
+    "id": 511,
+    "text": "Hej, jag hoppas du mår bra. Här är den senaste rapporten med kunddata från vårt möte.",
+    "label": "ham"
+  },
+  {
+    "id": 512,
+    "text": "Vi vill informera om ett nytt erbjudande, även om det inte är gratis, för våra värdefulla kunder.",
+    "label": "ham"
+  },
+  {
+    "id": 513,
+    "text": "Hej, vänligen bekräfta att du mottagit den bifogade kundrapporten från gårdagens möte.",
+    "label": "ham"
+  },
+  {
+    "id": 514,
+    "text": "Viktig information: Nya uppdateringar om våra kundavtal har publicerats. Läs mer i den bifogade rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 515,
+    "text": "Hej, vi har ett nytt erbjudande som inte är gratis, men det är viktigt för våra kunder. Se detaljer i dokumentet.",
+    "label": "ham"
+  },
+  {
+    "id": 516,
+    "text": "God morgon, jag bifogar en sammanfattning från mötet, med statistik om våra kunder.",
+    "label": "ham"
+  },
+  {
+    "id": 517,
+    "text": "Hej, här är en översikt över de senaste kundmätningarna och våra nya erbjudanden.",
+    "label": "ham"
+  },
+  {
+    "id": 518,
+    "text": "Vänligen notera att vi har uppdaterat kundinformationen. Det finns inget gratis erbjudande denna gång.",
+    "label": "ham"
+  },
+  {
+    "id": 519,
+    "text": "Hej, jag ville dela med mig av en rapport från mötet, där kundfeedbacken är central.",
+    "label": "ham"
+  },
+  {
+    "id": 520,
+    "text": "Vi uppskattar våra kunder – bifogat finner du en rapport med nya erbjudanden, inte gratis men relevanta.",
+    "label": "ham"
+  },
+  {
+    "id": 521,
+    "text": "Exklusivt spam-erbjudande: Få 70% rabatt på mode, kundens favorit! Erbjudandet gäller idag.",
+    "label": "spam"
+  },
+  {
+    "id": 522,
+    "text": "Hej, ta del av vårt senaste spam-möte där vi presenterar ett unikt gratis erbjudande för utvalda kunder.",
+    "label": "spam"
+  },
+  {
+    "id": 523,
+    "text": "Hej, jag bifogar en uppdaterad version av den interna kundrapporten från förra veckans möte.",
+    "label": "ham"
+  },
+  {
+    "id": 524,
+    "text": "Viktig meddelande: Kundmöte inställt. Se bifogade detaljer om den nya schemaläggningen.",
+    "label": "ham"
+  },
+  {
+    "id": 525,
+    "text": "Specialerbjudande! Vinn en gratis resa – detta spam-erbjudande är endast för utvalda kunder.",
+    "label": "spam"
+  },
+  {
+    "id": 526,
+    "text": "Hej, här är en rapport om kundnöjdheten efter vårt senaste möte. Inga gratis erbjudanden denna gång.",
+    "label": "ham"
+  },
+  {
+    "id": 527,
+    "text": "Spam alert! Kund, missa inte detta erbjudande: Delta i vårt möte och få gratis bonusar direkt!",
+    "label": "spam"
+  },
+  {
+    "id": 528,
+    "text": "Hej, vi har uppdaterat våra kunddata. Bifogat finner du en detaljerad rapport från mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 529,
+    "text": "Erbjudande: Få gratis tillgång till vårt spam-nyhetsbrev. Bli en värdefull kund idag!",
+    "label": "spam"
+  },
+  {
+    "id": 530,
+    "text": "Hej, här är information om vårt kommande möte och kundundersökningar. Vänligen läs dokumentet.",
+    "label": "ham"
+  },
+  {
+    "id": 531,
+    "text": "Hej, jag vill meddela att kundmötet för nästa vecka har fastställts. Se detaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 532,
+    "text": "God morgon, här är den senaste rapporten om våra kundavtal. Inga gratis erbjudanden idag.",
+    "label": "ham"
+  },
+  {
+    "id": 533,
+    "text": "Hej, vi har ett nytt erbjudande som kan vara av intresse för våra kunder, även om det inte är gratis.",
+    "label": "ham"
+  },
+  {
+    "id": 534,
+    "text": "Viktig information: Kunddata har uppdaterats efter vårt möte igår. Vänligen kontrollera bifogade siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 535,
+    "text": "Hej, bifogat hittar du en sammanfattning från mötet, med statistik om våra kunder.",
+    "label": "ham"
+  },
+  {
+    "id": 536,
+    "text": "Vänligen notera att våra kunder nu får ett nytt erbjudande. Detta är inte gratis, men viktigt att känna till.",
+    "label": "ham"
+  },
+  {
+    "id": 537,
+    "text": "Hej, här är en uppdatering om kundmötet samt nya erbjudanden som våra kunder kan dra nytta av.",
+    "label": "ham"
+  },
+  {
+    "id": 538,
+    "text": "God morgon, jag har sammanställt en rapport med kundfeedback från vårt senaste möte.",
+    "label": "ham"
+  },
+  {
+    "id": 539,
+    "text": "Hej, vi har publicerat nya kunduppgifter. Läs mer om erbjudanden och mötesdetaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 540,
+    "text": "Viktig information: Vårt nästa kundmöte har ändrats. Se den bifogade agendan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 541,
+    "text": "Hej, ta del av detta spam-erbjudande: Få en gratis gadget om du anmäler dig idag!",
+    "label": "spam"
+  },
+  {
+    "id": 542,
+    "text": "Kund, missa inte: Delta i vårt exklusiva spam-möte och ta del av gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 543,
+    "text": "Specialerbjudande! Vinn en gratis resa till Gotland. Detta spam-erbjudande är bara för utvalda kunder.",
+    "label": "spam"
+  },
+  {
+    "id": 544,
+    "text": "Hej, exklusivt erbjudande: Få 60% rabatt på alla produkter – detta spam-erbjudande gäller idag.",
+    "label": "spam"
+  },
+  {
+    "id": 545,
+    "text": "Kundinformation: Delta i vårt spam-möte och ta del av ett unikt gratis erbjudande som inte kan missas.",
+    "label": "spam"
+  },
+  {
+    "id": 546,
+    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva spam-erbjudanden.",
+    "label": "spam"
+  },
+  {
+    "id": 547,
+    "text": "Erbjudande: Bli en värdefull kund genom att delta i vårt kommande spam-möte och få gratis gåvor.",
+    "label": "spam"
+  },
+  {
+    "id": 548,
+    "text": "Hej, vårt senaste spam-erbjudande: Vinn en gratis smartphone. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 549,
+    "text": "Specialerbjudande! Ta del av ett exklusivt spam-erbjudande och delta i vårt möte för gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 550,
+    "text": "Hej, missa inte detta: Vinn gratis produkter och få exklusiva erbjudanden som kund i vårt spam-möte.",
+    "label": "spam"
+  },
+  {
+    "id": 551,
+    "text": "Hej, här är en uppdatering från vårt senaste kundmöte med relevant statistik.",
+    "label": "ham"
+  },
+  {
+    "id": 552,
+    "text": "Erbjudande: Få gratis frakt på alla beställningar – detta spam-erbjudande gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 553,
+    "text": "Hej, jag bifogar den senaste rapporten om kundnöjdhet. Möteplanering ingår.",
+    "label": "ham"
+  },
+  {
+    "id": 554,
+    "text": "Specialerbjudande: Delta i vårt spam-möte och få gratis bonusar som värdefull kund!",
+    "label": "spam"
+  },
+  {
+    "id": 555,
+    "text": "Hej, vi har uppdaterat kunddata och inkluderat nya erbjudanden från mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 556,
+    "text": "Viktig information: Detta spam-erbjudande ger dig gratis tillgång till premiumtjänster – anmäl dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 557,
+    "text": "Hej, bifogat finner du en detaljerad rapport från vårt senaste möte med kundfeedback.",
+    "label": "ham"
+  },
+  {
+    "id": 558,
+    "text": "Erbjudande: Vinn gratis presentkort genom att delta i vårt spam-event. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 559,
+    "text": "Hej, här är information om det kommande mötet och våra senaste kunduppdateringar.",
+    "label": "ham"
+  },
+  {
+    "id": 560,
+    "text": "Specialerbjudande: Få 40% rabatt och gratis bonusar genom vårt spam-erbjudande. Missa inte!",
+    "label": "spam"
+  },
+  {
+    "id": 561,
+    "text": "Hej, jag ville informera att kundmötet har flyttats till nästa onsdag.",
+    "label": "ham"
+  },
+  {
+    "id": 562,
+    "text": "God morgon, bifogat finner du en sammanfattning av de senaste kundmätningarna.",
+    "label": "ham"
+  },
+  {
+    "id": 563,
+    "text": "Hej, vi har uppdaterat kunduppgifterna och lagt till nya erbjudanden. Se bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 564,
+    "text": "Viktig information: Vårt möte med kunderna inställt. Läs mer i den bifogade meddelandet.",
+    "label": "ham"
+  },
+  {
+    "id": 565,
+    "text": "Hej, här är den senaste rapporten om kundnöjdheten. Mötesdetaljer finns bifogade.",
+    "label": "ham"
+  },
+  {
+    "id": 566,
+    "text": "Hej, vi har publicerat nya kunddata. Notera att detta inte inkluderar några gratis erbjudanden.",
+    "label": "ham"
+  },
+  {
+    "id": 567,
+    "text": "God morgon, jag bifogar en översikt över kundmötesresultaten från förra veckan.",
+    "label": "ham"
+  },
+  {
+    "id": 568,
+    "text": "Hej, vårt nästa möte för kundanalys är planerat till nästa måndag. Se bifogad agenda.",
+    "label": "ham"
+  },
+  {
+    "id": 569,
+    "text": "Viktig information: Nya kunduppgifter har publicerats. Inga gratis erbjudanden ingår denna gång.",
+    "label": "ham"
+  },
+  {
+    "id": 570,
+    "text": "Hej, bifogat hittar du en detaljerad rapport från kundmötet med insikter om våra erbjudanden.",
+    "label": "ham"
+  },
+  {
+    "id": 571,
+    "text": "Hej, exklusivt spam-erbjudande: Få en gratis prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 572,
+    "text": "Kund, missa inte detta: Delta i vårt spam-möte och ta del av gratis bonusar direkt.",
+    "label": "spam"
+  },
+  {
+    "id": 573,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event.",
+    "label": "spam"
+  },
+  {
+    "id": 574,
+    "text": "Hej, ta del av vårt unika spam-erbjudande med gratis frakt på alla beställningar.",
+    "label": "spam"
+  },
+  {
+    "id": 575,
+    "text": "Erbjudande: Bli en värdefull kund och delta i vårt spam-möte för att få gratis rabatter!",
+    "label": "spam"
+  },
+  {
+    "id": 576,
+    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt och gratis gåvor – registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 577,
+    "text": "Specialerbjudande: Registrera dig och få gratis tillgång till våra premiumprodukter. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 578,
+    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt spam-erbjudande!",
+    "label": "spam"
+  },
+  {
+    "id": 579,
+    "text": "Erbjudande: Få gratis bonusar och exklusiva rabatter om du deltar i vårt spam-event idag.",
+    "label": "spam"
+  },
+  {
+    "id": 580,
+    "text": "Hej, ta del av detta unika spam-erbjudande: Gratis presentkort för alla utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 581,
+    "text": "Hej, jag bifogar en rapport från vårt senaste möte med kundfeedback.",
+    "label": "ham"
+  },
+  {
+    "id": 582,
+    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – detta spam-erbjudande gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 583,
+    "text": "Hej, vänligen bekräfta mottagandet av den bifogade kundrapporten från förra mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 584,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "label": "spam"
+  },
+  {
+    "id": 585,
+    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte. Inga spam-erbjudanden ingår.",
+    "label": "ham"
+  },
+  {
+    "id": 586,
+    "text": "Viktig information: Vi har ett nytt spam-erbjudande med gratis tillgång till våra tjänster. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 587,
+    "text": "Hej, bifogat finner du en sammanfattning av kundmötet med viktiga insikter.",
+    "label": "ham"
+  },
+  {
+    "id": 588,
+    "text": "Erbjudande: Få en gratis demoversion av vårt senaste verktyg genom att delta i vårt spam-event!",
+    "label": "spam"
+  },
+  {
+    "id": 589,
+    "text": "Hej, jag ville informera att de nya kunddata har publicerats efter vårt möte.",
+    "label": "ham"
+  },
+  {
+    "id": 590,
+    "text": "Specialerbjudande: Ta del av vårt spam-erbjudande och få gratis bonusar – endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 591,
+    "text": "Hej, här är den slutgiltiga rapporten från vårt senaste kundmöte. Vänligen bekräfta mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 592,
+    "text": "God morgon, vi har publicerat nya kunduppgifter. Läs mer i den bifogade dokumentationen.",
+    "label": "ham"
+  },
+  {
+    "id": 593,
+    "text": "Hej, jag ville meddela att vårt möte med viktiga kunder har skjutits upp. Se detaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 594,
+    "text": "Viktig information: Kunddata har uppdaterats efter vårt senaste möte, inga gratis erbjudanden denna gång.",
+    "label": "ham"
+  },
+  {
+    "id": 595,
+    "text": "Hej, bifogat finner du en detaljerad sammanställning från kundmötet med alla relevanta siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 596,
+    "text": "Vänligen notera att våra kundmöten är omplanerade. Se bifogade ändringar och mötesagenda.",
+    "label": "ham"
+  },
+  {
+    "id": 597,
+    "text": "Hej, vi har fått in nya kunduppgifter. Bifogat finner du en rapport från det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 598,
+    "text": "God morgon, här är en uppdatering om våra kundavtal efter det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 599,
+    "text": "Hej, jag vill informera att våra kundmöten nu har ändrade tider. Se den bifogade agendan.",
+    "label": "ham"
+  },
+  {
+    "id": 600,
+    "text": "Viktig information: Den senaste kundrapporten från mötet finns bifogad. Vänligen läs igenom den noggrant.",
+    "label": "ham"
+  },
+  {
+    "id": 601,
+    "text": "Hej, ta del av detta exklusiva spam-erbjudande: Få en gratis prenumeration på vårt digitala nyhetsbrev!",
+    "label": "spam"
+  },
+  {
+    "id": 602,
+    "text": "Kund, missa inte chansen att delta i vårt spam-möte och få gratis bonusar direkt!",
+    "label": "spam"
+  },
+  {
+    "id": 603,
+    "text": "Specialerbjudande: Vinn en gratis resväska genom att anmäla dig till vårt spam-event.",
+    "label": "spam"
+  },
+  {
+    "id": 604,
+    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 605,
+    "text": "Kundinformation: Delta i vårt spam-möte och ta del av ett unikt gratis erbjudande för våra kunder.",
+    "label": "spam"
+  },
+  {
+    "id": 606,
+    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva spam-erbjudanden nu!",
+    "label": "spam"
+  },
+  {
+    "id": 607,
+    "text": "Erbjudande: Bli en värdefull kund genom att delta i vårt kommande spam-möte och få gratis gåvor.",
+    "label": "spam"
+  },
+  {
+    "id": 608,
+    "text": "Hej, vårt senaste spam-erbjudande: Vinn en gratis surfplatta. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 609,
+    "text": "Specialerbjudande! Ta del av ett exklusivt spam-erbjudande och delta i vårt möte för gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 610,
+    "text": "Hej, missa inte detta: Vinn gratis produkter och få exklusiva erbjudanden genom vårt spam-event!",
+    "label": "spam"
+  },
+  {
+    "id": 611,
+    "text": "Hej, jag ville meddela att nästa kundmöte är bekräftat. Se bifogad agenda.",
+    "label": "ham"
+  },
+  {
+    "id": 612,
+    "text": "God morgon, här är en uppdatering från vårt senaste kundmöte med viktiga siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 613,
+    "text": "Hej, vi har publicerat nya kunddata. Bifogat finner du en rapport med uppdaterade erbjudanden.",
+    "label": "ham"
+  },
+  {
+    "id": 614,
+    "text": "Viktig information: Kundmötet har ändrats. Se den bifogade agendan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 615,
+    "text": "Hej, jag bifogar en sammanfattning från vårt senaste möte, med statistik om våra kunder.",
+    "label": "ham"
+  },
+  {
+    "id": 616,
+    "text": "Vänligen notera att våra kunder nu får ett nytt erbjudande. Detta är inte gratis, men viktigt att känna till.",
+    "label": "ham"
+  },
+  {
+    "id": 617,
+    "text": "Hej, här är en uppdatering om kundmötet samt nya erbjudanden som våra kunder kan dra nytta av.",
+    "label": "ham"
+  },
+  {
+    "id": 618,
+    "text": "God morgon, jag har sammanställt en rapport med kundfeedback från vårt senaste möte.",
+    "label": "ham"
+  },
+  {
+    "id": 619,
+    "text": "Hej, vi har publicerat nya kunduppgifter. Läs mer om erbjudanden och mötesdetaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 620,
+    "text": "Viktig information: Vårt nästa kundmöte har ändrats. Se den bifogade agendan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 621,
+    "text": "Hej, exklusivt spam-erbjudande: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 622,
+    "text": "Kund, missa inte detta: Delta i vårt spam-möte och ta del av gratis bonusar direkt.",
+    "label": "spam"
+  },
+  {
+    "id": 623,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "label": "spam"
+  },
+  {
+    "id": 624,
+    "text": "Hej, ta del av vårt unika spam-erbjudande med gratis frakt på alla beställningar.",
+    "label": "spam"
+  },
+  {
+    "id": 625,
+    "text": "Erbjudande: Bli en värdefull kund och delta i vårt spam-möte för att få gratis rabatter!",
+    "label": "spam"
+  },
+  {
+    "id": 626,
+    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt och gratis gåvor – registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 627,
+    "text": "Specialerbjudande: Registrera dig och få gratis tillgång till våra premiumprodukter. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 628,
+    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt spam-erbjudande!",
+    "label": "spam"
+  },
+  {
+    "id": 629,
+    "text": "Erbjudande: Få gratis bonusar och exklusiva rabatter om du deltar i vårt spam-event idag.",
+    "label": "spam"
+  },
+  {
+    "id": 630,
+    "text": "Hej, ta del av detta unika spam-erbjudande: Gratis presentkort för alla utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 631,
+    "text": "Hej, bifogat hittar du en rapport från vårt senaste kundmöte med relevanta siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 632,
+    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – detta spam-erbjudande gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 633,
+    "text": "Hej, vänligen bekräfta mottagandet av den bifogade kundrapporten från förra mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 634,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "label": "spam"
+  },
+  {
+    "id": 635,
+    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte. Inga spam-erbjudanden ingår.",
+    "label": "ham"
+  },
+  {
+    "id": 636,
+    "text": "Viktig information: Vi har ett nytt spam-erbjudande med gratis tillgång till våra tjänster. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 637,
+    "text": "Hej, bifogat finner du en sammanfattning av kundmötet med viktiga insikter.",
+    "label": "ham"
+  },
+  {
+    "id": 638,
+    "text": "Erbjudande: Få en gratis demoversion av vårt senaste verktyg genom att delta i vårt spam-event!",
+    "label": "spam"
+  },
+  {
+    "id": 639,
+    "text": "Hej, jag ville informera att de nya kunddata har publicerats efter vårt möte.",
+    "label": "ham"
+  },
+  {
+    "id": 640,
+    "text": "Specialerbjudande: Ta del av vårt spam-erbjudande och få gratis bonusar – endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 641,
+    "text": "Hej, här är den slutgiltiga rapporten från vårt senaste kundmöte. Vänligen bekräfta mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 642,
+    "text": "God morgon, vi har publicerat nya kunduppgifter. Läs mer i den bifogade dokumentationen.",
+    "label": "ham"
+  },
+  {
+    "id": 643,
+    "text": "Hej, jag ville meddela att vårt möte med viktiga kunder har skjutits upp. Se detaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 644,
+    "text": "Viktig information: Kunddata har uppdaterats efter vårt senaste möte, inga gratis erbjudanden denna gång.",
+    "label": "ham"
+  },
+  {
+    "id": 645,
+    "text": "Hej, bifogat finner du en detaljerad sammanställning från kundmötet med alla relevanta siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 646,
+    "text": "Vänligen notera att våra kundmöten är omplanerade. Se bifogade ändringar och mötesagenda.",
+    "label": "ham"
+  },
+  {
+    "id": 647,
+    "text": "Hej, vi har fått in nya kunduppgifter. Bifogat finner du en rapport från det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 648,
+    "text": "God morgon, här är en uppdatering om våra kundavtal efter det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 649,
+    "text": "Hej, jag vill informera att våra kundmöten nu har ändrade tider. Se den bifogade agendan.",
+    "label": "ham"
+  },
+  {
+    "id": 650,
+    "text": "Viktig information: Den senaste kundrapporten från mötet finns bifogad. Vänligen läs igenom den noggrant.",
+    "label": "ham"
+  },
+  {
+    "id": 651,
+    "text": "Hej, ta del av detta exklusiva spam-erbjudande: Få en gratis prenumeration på vårt digitala nyhetsbrev!",
+    "label": "spam"
+  },
+  {
+    "id": 652,
+    "text": "Kund, missa inte chansen att delta i vårt spam-möte och få gratis bonusar direkt!",
+    "label": "spam"
+  },
+  {
+    "id": 653,
+    "text": "Specialerbjudande: Vinn en gratis resväska genom att anmäla dig till vårt spam-event.",
+    "label": "spam"
+  },
+  {
+    "id": 654,
+    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 655,
+    "text": "Kundinformation: Delta i vårt spam-möte och ta del av ett unikt gratis erbjudande för våra kunder.",
+    "label": "spam"
+  },
+  {
+    "id": 656,
+    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva spam-erbjudanden nu!",
+    "label": "spam"
+  },
+  {
+    "id": 657,
+    "text": "Erbjudande: Bli en värdefull kund genom att delta i vårt kommande spam-möte och få gratis gåvor.",
+    "label": "spam"
+  },
+  {
+    "id": 658,
+    "text": "Hej, vårt senaste spam-erbjudande: Vinn en gratis surfplatta. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 659,
+    "text": "Specialerbjudande! Ta del av ett exklusivt spam-erbjudande och delta i vårt möte för gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 660,
+    "text": "Hej, missa inte detta: Vinn gratis produkter och få exklusiva erbjudanden genom vårt spam-event!",
+    "label": "spam"
+  },
+  {
+    "id": 661,
+    "text": "Hej, jag ville meddela att nästa kundmöte är bekräftat. Se bifogad agenda.",
+    "label": "ham"
+  },
+  {
+    "id": 662,
+    "text": "God morgon, här är en uppdatering från vårt senaste kundmöte med viktiga siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 663,
+    "text": "Hej, vi har publicerat nya kunddata. Bifogat finner du en rapport med uppdaterade erbjudanden.",
+    "label": "ham"
+  },
+  {
+    "id": 664,
+    "text": "Viktig information: Kundmötet har ändrats. Se den bifogade agendan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 665,
+    "text": "Hej, jag bifogar en sammanfattning från vårt senaste möte, med statistik om våra kunder.",
+    "label": "ham"
+  },
+  {
+    "id": 666,
+    "text": "Vänligen notera att våra kunder nu får ett nytt erbjudande. Detta är inte gratis, men viktigt att känna till.",
+    "label": "ham"
+  },
+  {
+    "id": 667,
+    "text": "Hej, här är en uppdatering om kundmötet samt nya erbjudanden som våra kunder kan dra nytta av.",
+    "label": "ham"
+  },
+  {
+    "id": 668,
+    "text": "God morgon, jag har sammanställt en rapport med kundfeedback från vårt senaste möte.",
+    "label": "ham"
+  },
+  {
+    "id": 669,
+    "text": "Hej, vi har publicerat nya kunduppgifter. Läs mer om erbjudanden och mötesdetaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 670,
+    "text": "Viktig information: Vårt nästa kundmöte har ändrats. Se den bifogade agendan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 671,
+    "text": "Hej, exklusivt spam-erbjudande: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 672,
+    "text": "Kund, missa inte detta: Delta i vårt spam-möte och ta del av gratis bonusar direkt.",
+    "label": "spam"
+  },
+  {
+    "id": 673,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "label": "spam"
+  },
+  {
+    "id": 674,
+    "text": "Hej, ta del av vårt unika spam-erbjudande med gratis frakt på alla beställningar.",
+    "label": "spam"
+  },
+  {
+    "id": 675,
+    "text": "Erbjudande: Bli en värdefull kund och delta i vårt spam-möte för att få gratis rabatter!",
+    "label": "spam"
+  },
+  {
+    "id": 676,
+    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt och gratis gåvor – registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 677,
+    "text": "Specialerbjudande: Registrera dig och få gratis tillgång till våra premiumprodukter. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 678,
+    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt spam-erbjudande!",
+    "label": "spam"
+  },
+  {
+    "id": 679,
+    "text": "Erbjudande: Få gratis bonusar och exklusiva rabatter om du deltar i vårt spam-event idag.",
+    "label": "spam"
+  },
+  {
+    "id": 680,
+    "text": "Hej, ta del av detta unika spam-erbjudande: Gratis presentkort för alla utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 681,
+    "text": "Hej, jag bifogar en rapport från vårt senaste kundmöte med kundfeedback.",
+    "label": "ham"
+  },
+  {
+    "id": 682,
+    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – detta spam-erbjudande gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 683,
+    "text": "Hej, vänligen bekräfta mottagandet av den bifogade kundrapporten från förra mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 684,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "label": "spam"
+  },
+  {
+    "id": 685,
+    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte. Inga spam-erbjudanden ingår.",
+    "label": "ham"
+  },
+  {
+    "id": 686,
+    "text": "Viktig information: Vi har ett nytt spam-erbjudande med gratis tillgång till våra tjänster. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 687,
+    "text": "Hej, bifogat finner du en sammanfattning av kundmötet med viktiga insikter.",
+    "label": "ham"
+  },
+  {
+    "id": 688,
+    "text": "Erbjudande: Få en gratis demoversion av vårt senaste verktyg genom att delta i vårt spam-event!",
+    "label": "spam"
+  },
+  {
+    "id": 689,
+    "text": "Hej, jag ville informera att de nya kunddata har publicerats efter vårt möte.",
+    "label": "ham"
+  },
+  {
+    "id": 690,
+    "text": "Specialerbjudande: Ta del av vårt spam-erbjudande och få gratis bonusar – endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 691,
+    "text": "Hej, här är den slutgiltiga rapporten från vårt senaste kundmöte. Vänligen bekräfta mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 692,
+    "text": "God morgon, vi har publicerat nya kunduppgifter. Läs mer i den bifogade dokumentationen.",
+    "label": "ham"
+  },
+  {
+    "id": 693,
+    "text": "Hej, jag ville meddela att vårt möte med viktiga kunder har skjutits upp. Se detaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 694,
+    "text": "Viktig information: Kunddata har uppdaterats efter vårt senaste möte, inga gratis erbjudanden denna gång.",
+    "label": "ham"
+  },
+  {
+    "id": 695,
+    "text": "Hej, bifogat finner du en detaljerad sammanställning från kundmötet med alla relevanta siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 696,
+    "text": "Vänligen notera att våra kundmöten är omplanerade. Se bifogade ändringar och mötesagenda.",
+    "label": "ham"
+  },
+  {
+    "id": 697,
+    "text": "Hej, vi har fått in nya kunduppgifter. Bifogat finner du en rapport från det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 698,
+    "text": "God morgon, här är en uppdatering om våra kundavtal efter det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 699,
+    "text": "Hej, jag vill informera att våra kundmöten nu har ändrade tider. Se den bifogade agendan.",
+    "label": "ham"
+  },
+  {
+    "id": 700,
+    "text": "Viktig information: Den senaste kundrapporten från mötet finns bifogad. Vänligen läs igenom den noggrant.",
+    "label": "ham"
+  },
+  {
+    "id": 701,
+    "text": "Hej, exklusivt spam-erbjudande: Få en gratis prenumeration på vårt digitala nyhetsbrev!",
+    "label": "spam"
+  },
+  {
+    "id": 702,
+    "text": "Kund, missa inte chansen att delta i vårt spam-möte och få gratis bonusar direkt!",
+    "label": "spam"
+  },
+  {
+    "id": 703,
+    "text": "Specialerbjudande: Vinn en gratis resväska genom att anmäla dig till vårt spam-event.",
+    "label": "spam"
+  },
+  {
+    "id": 704,
+    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 705,
+    "text": "Kundinformation: Delta i vårt spam-möte och ta del av ett unikt gratis erbjudande för våra kunder.",
+    "label": "spam"
+  },
+  {
+    "id": 706,
+    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva spam-erbjudanden nu!",
+    "label": "spam"
+  },
+  {
+    "id": 707,
+    "text": "Erbjudande: Bli en värdefull kund genom att delta i vårt kommande spam-möte och få gratis gåvor.",
+    "label": "spam"
+  },
+  {
+    "id": 708,
+    "text": "Hej, vårt senaste spam-erbjudande: Vinn en gratis surfplatta. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 709,
+    "text": "Specialerbjudande! Ta del av ett exklusivt spam-erbjudande och delta i vårt möte för gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 710,
+    "text": "Hej, missa inte detta: Vinn gratis produkter och få exklusiva erbjudanden genom vårt spam-event!",
+    "label": "spam"
+  },
+  {
+    "id": 711,
+    "text": "Hej, jag ville meddela att nästa kundmöte är bekräftat. Se bifogad agenda.",
+    "label": "ham"
+  },
+  {
+    "id": 712,
+    "text": "God morgon, här är en uppdatering från vårt senaste kundmöte med viktiga siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 713,
+    "text": "Hej, vi har publicerat nya kunddata. Bifogat finner du en rapport med uppdaterade erbjudanden.",
+    "label": "ham"
+  },
+  {
+    "id": 714,
+    "text": "Viktig information: Kundmötet har ändrats. Se den bifogade agendan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 715,
+    "text": "Hej, jag bifogar en sammanfattning från vårt senaste möte, med statistik om våra kunder.",
+    "label": "ham"
+  },
+  {
+    "id": 716,
+    "text": "Vänligen notera att våra kunder nu får ett nytt erbjudande. Detta är inte gratis, men viktigt att känna till.",
+    "label": "ham"
+  },
+  {
+    "id": 717,
+    "text": "Hej, här är en uppdatering om kundmötet samt nya erbjudanden som våra kunder kan dra nytta av.",
+    "label": "ham"
+  },
+  {
+    "id": 718,
+    "text": "God morgon, jag har sammanställt en rapport med kundfeedback från vårt senaste möte.",
+    "label": "ham"
+  },
+  {
+    "id": 719,
+    "text": "Hej, vi har publicerat nya kunduppgifter. Läs mer om erbjudanden och mötesdetaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 720,
+    "text": "Viktig information: Vårt nästa kundmöte har ändrats. Se den bifogade agendan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 721,
+    "text": "Hej, exklusivt spam-erbjudande: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 722,
+    "text": "Kund, missa inte detta: Delta i vårt spam-möte och ta del av gratis bonusar direkt.",
+    "label": "spam"
+  },
+  {
+    "id": 723,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "label": "spam"
+  },
+  {
+    "id": 724,
+    "text": "Hej, ta del av vårt unika spam-erbjudande med gratis frakt på alla beställningar.",
+    "label": "spam"
+  },
+  {
+    "id": 725,
+    "text": "Erbjudande: Bli en värdefull kund och delta i vårt spam-möte för att få gratis rabatter!",
+    "label": "spam"
+  },
+  {
+    "id": 726,
+    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt och gratis gåvor – registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 727,
+    "text": "Specialerbjudande: Registrera dig och få gratis tillgång till våra premiumprodukter. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 728,
+    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt spam-erbjudande!",
+    "label": "spam"
+  },
+  {
+    "id": 729,
+    "text": "Erbjudande: Få gratis bonusar och exklusiva rabatter om du deltar i vårt spam-event idag.",
+    "label": "spam"
+  },
+  {
+    "id": 730,
+    "text": "Hej, ta del av detta unika spam-erbjudande: Gratis presentkort för alla utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 731,
+    "text": "Hej, bifogat hittar du en rapport från vårt senaste kundmöte med relevanta siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 732,
+    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – detta spam-erbjudande gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 733,
+    "text": "Hej, vänligen bekräfta mottagandet av den bifogade kundrapporten från förra mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 734,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "label": "spam"
+  },
+  {
+    "id": 735,
+    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte. Inga spam-erbjudanden ingår.",
+    "label": "ham"
+  },
+  {
+    "id": 736,
+    "text": "Viktig information: Vi har ett nytt spam-erbjudande med gratis tillgång till våra tjänster. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 737,
+    "text": "Hej, bifogat finner du en sammanfattning av kundmötet med viktiga insikter.",
+    "label": "ham"
+  },
+  {
+    "id": 738,
+    "text": "Erbjudande: Få en gratis demoversion av vårt senaste verktyg genom att delta i vårt spam-event!",
+    "label": "spam"
+  },
+  {
+    "id": 739,
+    "text": "Hej, jag ville informera att de nya kunddata har publicerats efter vårt möte.",
+    "label": "ham"
+  },
+  {
+    "id": 740,
+    "text": "Specialerbjudande: Ta del av vårt spam-erbjudande och få gratis bonusar – endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 741,
+    "text": "Hej, här är den slutgiltiga rapporten från vårt senaste kundmöte. Vänligen bekräfta mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 742,
+    "text": "God morgon, vi har publicerat nya kunduppgifter. Läs mer i den bifogade dokumentationen.",
+    "label": "ham"
+  },
+  {
+    "id": 743,
+    "text": "Hej, jag ville meddela att vårt möte med viktiga kunder har skjutits upp. Se detaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 744,
+    "text": "Viktig information: Kunddata har uppdaterats efter vårt senaste möte, inga gratis erbjudanden denna gång.",
+    "label": "ham"
+  },
+  {
+    "id": 745,
+    "text": "Hej, bifogat finner du en detaljerad sammanställning från kundmötet med alla relevanta siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 746,
+    "text": "Vänligen notera att våra kundmöten är omplanerade. Se bifogade ändringar och mötesagenda.",
+    "label": "ham"
+  },
+  {
+    "id": 747,
+    "text": "Hej, vi har fått in nya kunduppgifter. Bifogat finner du en rapport från det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 748,
+    "text": "God morgon, här är en uppdatering om våra kundavtal efter det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 749,
+    "text": "Hej, jag vill informera att våra kundmöten nu har ändrade tider. Se den bifogade agendan.",
+    "label": "ham"
+  },
+  {
+    "id": 750,
+    "text": "Viktig information: Den senaste kundrapporten från mötet finns bifogad. Vänligen läs igenom den noggrant.",
+    "label": "ham"
+  },
+  {
+    "id": 751,
+    "text": "Hej, ta del av detta exklusiva spam-erbjudande: Få en gratis prenumeration på vårt digitala nyhetsbrev!",
+    "label": "spam"
+  },
+  {
+    "id": 752,
+    "text": "Kund, missa inte chansen att delta i vårt spam-möte och få gratis bonusar direkt!",
+    "label": "spam"
+  },
+  {
+    "id": 753,
+    "text": "Specialerbjudande: Vinn en gratis resväska genom att anmäla dig till vårt spam-event.",
+    "label": "spam"
+  },
+  {
+    "id": 754,
+    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt på alla produkter – erbjudandet gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 755,
+    "text": "Kundinformation: Delta i vårt spam-möte och ta del av ett unikt gratis erbjudande för våra kunder.",
+    "label": "spam"
+  },
+  {
+    "id": 756,
+    "text": "Hej, vinstmöjlighet! Registrera dig för att få gratis bonusar och exklusiva spam-erbjudanden nu!",
+    "label": "spam"
+  },
+  {
+    "id": 757,
+    "text": "Erbjudande: Bli en värdefull kund genom att delta i vårt kommande spam-möte och få gratis gåvor.",
+    "label": "spam"
+  },
+  {
+    "id": 758,
+    "text": "Hej, vårt senaste spam-erbjudande: Vinn en gratis surfplatta. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 759,
+    "text": "Specialerbjudande! Ta del av ett exklusivt spam-erbjudande och delta i vårt möte för gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 760,
+    "text": "Hej, missa inte detta: Vinn gratis produkter och få exklusiva erbjudanden genom vårt spam-event!",
+    "label": "spam"
+  },
+  {
+    "id": 761,
+    "text": "Hej, jag ville meddela att nästa kundmöte är bekräftat. Se bifogad agenda.",
+    "label": "ham"
+  },
+  {
+    "id": 762,
+    "text": "God morgon, här är en uppdatering från vårt senaste kundmöte med viktiga siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 763,
+    "text": "Hej, vi har publicerat nya kunddata. Bifogat finner du en rapport med uppdaterade erbjudanden.",
+    "label": "ham"
+  },
+  {
+    "id": 764,
+    "text": "Viktig information: Kundmötet har ändrats. Se den bifogade agendan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 765,
+    "text": "Hej, jag bifogar en sammanfattning från vårt senaste möte, med statistik om våra kunder.",
+    "label": "ham"
+  },
+  {
+    "id": 766,
+    "text": "Vänligen notera att våra kunder nu får ett nytt erbjudande. Detta är inte gratis, men viktigt att känna till.",
+    "label": "ham"
+  },
+  {
+    "id": 767,
+    "text": "Hej, här är en uppdatering om kundmötet samt nya erbjudanden som våra kunder kan dra nytta av.",
+    "label": "ham"
+  },
+  {
+    "id": 768,
+    "text": "God morgon, jag har sammanställt en rapport med kundfeedback från vårt senaste möte.",
+    "label": "ham"
+  },
+  {
+    "id": 769,
+    "text": "Hej, vi har publicerat nya kunduppgifter. Läs mer om erbjudanden och mötesdetaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 770,
+    "text": "Viktig information: Vårt nästa kundmöte har ändrats. Se den bifogade agendan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 771,
+    "text": "Hej, exklusivt spam-erbjudande: Få en gratis månads prenumeration på vårt nyhetsbrev – erbjudandet gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 772,
+    "text": "Kund, missa inte detta: Delta i vårt spam-möte och ta del av gratis bonusar direkt.",
+    "label": "spam"
+  },
+  {
+    "id": 773,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "label": "spam"
+  },
+  {
+    "id": 774,
+    "text": "Hej, ta del av vårt unika spam-erbjudande med gratis frakt på alla beställningar.",
+    "label": "spam"
+  },
+  {
+    "id": 775,
+    "text": "Erbjudande: Bli en värdefull kund och delta i vårt spam-möte för att få gratis rabatter!",
+    "label": "spam"
+  },
+  {
+    "id": 776,
+    "text": "Hej, vårt senaste spam-erbjudande: Få 50% rabatt och gratis gåvor – registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 777,
+    "text": "Specialerbjudande: Registrera dig och få gratis tillgång till våra premiumprodukter. Endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 778,
+    "text": "Hej, missa inte chansen att vinna en gratis smartphone genom vårt spam-erbjudande!",
+    "label": "spam"
+  },
+  {
+    "id": 779,
+    "text": "Erbjudande: Få gratis bonusar och exklusiva rabatter om du deltar i vårt spam-event idag.",
+    "label": "spam"
+  },
+  {
+    "id": 780,
+    "text": "Hej, ta del av detta unika spam-erbjudande: Gratis presentkort för alla utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 781,
+    "text": "Hej, jag bifogar en rapport från vårt senaste kundmöte med kundfeedback.",
+    "label": "ham"
+  },
+  {
+    "id": 782,
+    "text": "Erbjudande: Få 40% rabatt på utvalda produkter – detta spam-erbjudande gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 783,
+    "text": "Hej, vänligen bekräfta mottagandet av den bifogade kundrapporten från förra mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 784,
+    "text": "Specialerbjudande: Vinn en gratis resa genom att delta i vårt spam-event. Erbjudandet är exklusivt!",
+    "label": "spam"
+  },
+  {
+    "id": 785,
+    "text": "Hej, här är de uppdaterade kunduppgifterna från vårt senaste möte. Inga spam-erbjudanden ingår.",
+    "label": "ham"
+  },
+  {
+    "id": 786,
+    "text": "Viktig information: Vi har ett nytt spam-erbjudande med gratis tillgång till våra tjänster. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 787,
+    "text": "Hej, bifogat finner du en sammanfattning av kundmötet med viktiga insikter.",
+    "label": "ham"
+  },
+  {
+    "id": 788,
+    "text": "Erbjudande: Få en gratis demoversion av vårt senaste verktyg genom att delta i vårt spam-event!",
+    "label": "spam"
+  },
+  {
+    "id": 789,
+    "text": "Hej, jag ville informera att de nya kunddata har publicerats efter vårt möte.",
+    "label": "ham"
+  },
+  {
+    "id": 790,
+    "text": "Specialerbjudande: Ta del av vårt spam-erbjudande och få gratis bonusar – endast för utvalda kunder!",
+    "label": "spam"
+  },
+  {
+    "id": 791,
+    "text": "Hej, här är den slutgiltiga rapporten från vårt senaste kundmöte. Vänligen bekräfta mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 792,
+    "text": "God morgon, vi har publicerat nya kunduppgifter. Läs mer i den bifogade dokumentationen.",
+    "label": "ham"
+  },
+  {
+    "id": 793,
+    "text": "Hej, jag ville meddela att vårt möte med viktiga kunder har skjutits upp. Se detaljer i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 794,
+    "text": "Viktig information: Kunddata har uppdaterats efter vårt senaste möte, inga gratis erbjudanden denna gång.",
+    "label": "ham"
+  },
+  {
+    "id": 795,
+    "text": "Hej, bifogat finner du en detaljerad sammanställning från kundmötet med alla relevanta siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 796,
+    "text": "Vänligen notera att våra kundmöten är omplanerade. Se bifogade ändringar och mötesagenda.",
+    "label": "ham"
+  },
+  {
+    "id": 797,
+    "text": "Hej, vi har fått in nya kunduppgifter. Bifogat finner du en rapport från det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 798,
+    "text": "God morgon, här är en uppdatering om våra kundavtal efter det senaste mötet.",
+    "label": "ham"
+  },
+  {
+    "id": 799,
+    "text": "Hej, jag vill informera att våra kundmöten nu har ändrade tider. Se den bifogade agendan.",
+    "label": "ham"
+  },
+  {
+    "id": 800,
+    "text": "Viktig information: Den senaste kundrapporten från mötet finns bifogad. Vänligen läs igenom den noggrant.",
+    "label": "ham"
+  },
+  {
+    "id": 801,
+    "text": "Hej, jag hoppas att allt är bra. Jag vill påminna om vårt planerade möte imorgon klockan 10.",
+    "label": "ham"
+  },
+  {
+    "id": 802,
+    "text": "Hej, bifogat finner du den uppdaterade rapporten från gårdagens kundmöte. Vänligen granska den.",
+    "label": "ham"
+  },
+  {
+    "id": 803,
+    "text": "Hej, jag vill meddela att vi har mottagit värdefull feedback från en viktig kund. Se rapporten bifogad.",
+    "label": "ham"
+  },
+  {
+    "id": 804,
+    "text": "Bästa kollega, jag har just uppdaterat våra kundavtal. Vänligen se den bifogade filen för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 805,
+    "text": "Hej, tack för mötet idag. Här är en kort sammanfattning av våra diskussioner.",
+    "label": "ham"
+  },
+  {
+    "id": 806,
+    "text": "Hej, jag vill informera att vi nu har en ny kundstrategi. Se den bifogade informationen för mer.",
+    "label": "ham"
+  },
+  {
+    "id": 807,
+    "text": "Hej, jag bifogar en rapport om de senaste kundresultaten. Bekräfta gärna mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 808,
+    "text": "Hej, våra interna möten har justerats. Se den uppdaterade agendan bifogad.",
+    "label": "ham"
+  },
+  {
+    "id": 809,
+    "text": "Hej, här är de senaste siffrorna från kundundersökningen. Tack för att du tar del av informationen.",
+    "label": "ham"
+  },
+  {
+    "id": 810,
+    "text": "Hej, vi planerar ett nytt möte med några av våra största kunder nästa vecka. Detaljer kommer snart.",
+    "label": "ham"
+  },
+  {
+    "id": 811,
+    "text": "Grattis! Du har nu chansen att få 70% rabatt på din nästa beställning. Använd koden HEJ811 vid kassan.",
+    "label": "spam"
+  },
+  {
+    "id": 812,
+    "text": "Erbjudande: Som kund får du nu möjlighet att vinna en gratis produkt – registrera dig idag!",
+    "label": "spam"
+  },
+  {
+    "id": 813,
+    "text": "Hej, missa inte detta unika erbjudande! Få 50% rabatt på alla varor idag.",
+    "label": "spam"
+  },
+  {
+    "id": 814,
+    "text": "Begränsat erbjudande: Handla nu och få extra bonusar – detta erbjudande gäller bara idag!",
+    "label": "spam"
+  },
+  {
+    "id": 815,
+    "text": "Grattis! Du är utvald att ta del av ett specialerbjudande. Registrera dig för att få din gratis bonus.",
+    "label": "spam"
+  },
+  {
+    "id": 816,
+    "text": "Erbjudande: Få 40% rabatt på din nästa beställning med detta exklusiva erbjudande. Endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 817,
+    "text": "Kund, ta chansen att vinna en gratis produkt – anmäl dig till vårt erbjudande idag!",
+    "label": "spam"
+  },
+  {
+    "id": 818,
+    "text": "Viktig information: Få tillgång till vårt exklusiva erbjudande med upp till 60% rabatt. Erbjudandet är tidsbegränsat!",
+    "label": "spam"
+  },
+  {
+    "id": 819,
+    "text": "Grattis, du har vunnit en gratis present! Använd koden KUND819 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 820,
+    "text": "Erbjudande: Som utvald kund kan du nu köpa produkter med 50% rabatt. Besök vår webbplats nu!",
+    "label": "spam"
+  },
+  {
+    "id": 821,
+    "text": "Hej, den senaste kundanalysen är nu klar. Se den bifogade rapporten för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 822,
+    "text": "Hej, här är en uppdatering från vårt kundmöte med viktiga diskussionspunkter. Tack för ditt deltagande.",
+    "label": "ham"
+  },
+  {
+    "id": 823,
+    "text": "Hej, vi har fått in nya kunddata. Se den bifogade filen för en översikt.",
+    "label": "ham"
+  },
+  {
+    "id": 824,
+    "text": "Hej, jag bifogar en rapport med insikter från vårt senaste möte. Kundfeedbacken är central.",
+    "label": "ham"
+  },
+  {
+    "id": 825,
+    "text": "Hej, tack för ett givande möte. Här är en kort sammanfattning av våra diskussioner om kundnöjdhet.",
+    "label": "ham"
+  },
+  {
+    "id": 826,
+    "text": "Hej, vi har implementerat nya kundstrategier. Se den bifogade informationen för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 827,
+    "text": "Hej, vänligen bekräfta att du mottagit den uppdaterade kundrapporten jag skickade igår.",
+    "label": "ham"
+  },
+  {
+    "id": 828,
+    "text": "Hej, vi planerar ett uppföljningsmöte med våra kunder nästa vecka. Mer information kommer snart.",
+    "label": "ham"
+  },
+  {
+    "id": 829,
+    "text": "Hej, här är en översikt över de senaste kundresultaten. Jag ser fram emot din feedback.",
+    "label": "ham"
+  },
+  {
+    "id": 830,
+    "text": "Hej, jag vill meddela att vi har en ny kundpolicy som träder i kraft omedelbart. Se detaljer bifogade.",
+    "label": "ham"
+  },
+  {
+    "id": 831,
+    "text": "Erbjudande: Få 55% rabatt på utvalda produkter med denna exklusiva kod. Gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 832,
+    "text": "Grattis! Du har blivit utvald att ta del av vårt specialerbjudande. Registrera dig för en gratis bonus.",
+    "label": "spam"
+  },
+  {
+    "id": 833,
+    "text": "Erbjudande: Ta del av vårt tidsbegränsade erbjudande med upp till 60% rabatt på utvalda varor.",
+    "label": "spam"
+  },
+  {
+    "id": 834,
+    "text": "Grattis! Vinn en gratis accessoar. Använd koden GRATIS834 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 835,
+    "text": "Erbjudande: Få exklusiva rabatter med upp till 50% rabatt – detta erbjudande gäller endast idag.",
+    "label": "spam"
+  },
+  {
+    "id": 836,
+    "text": "Kund, ta del av vårt senaste erbjudande: Få en gratis gåva vid ditt nästa köp. Anmäl dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 837,
+    "text": "Erbjudande: Få en extra rabatt på din beställning. Detta erbjudande är exklusivt för utvalda kunder.",
+    "label": "spam"
+  },
+  {
+    "id": 838,
+    "text": "Grattis! Du har vunnit ett unikt erbjudande med 60% rabatt. Skynda att utnyttja detta!",
+    "label": "spam"
+  },
+  {
+    "id": 839,
+    "text": "Erbjudande: Få gratis frakt på din nästa beställning. Använd koden ERB839 vid kassan.",
+    "label": "spam"
+  },
+  {
+    "id": 840,
+    "text": "Kund, missa inte detta: Få upp till 50% rabatt på alla produkter. Erbjudandet är tidsbegränsat!",
+    "label": "spam"
+  },
+  {
+    "id": 841,
+    "text": "Hej, jag vill meddela att mötet vi hade igår gav värdefulla insikter. Se sammanfattningen bifogad.",
+    "label": "ham"
+  },
+  {
+    "id": 842,
+    "text": "Hej, jag har uppdaterat vår interna rapport med de senaste kundresultaten. Se bilagan för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 843,
+    "text": "Hej, bifogat finner du den senaste versionen av vår kundanalys. Tack för din insats.",
+    "label": "ham"
+  },
+  {
+    "id": 844,
+    "text": "Hej, vi har uppdaterat kunddatabasen med nya siffror. Se rapporten bifogad.",
+    "label": "ham"
+  },
+  {
+    "id": 845,
+    "text": "Hej, tack för ett produktivt möte. Här är de uppdaterade siffrorna från kundundersökningen.",
+    "label": "ham"
+  },
+  {
+    "id": 846,
+    "text": "Hej, jag vill meddela att vi planerar ett nytt möte med våra kunder. Detaljer finns i bilagan.",
+    "label": "ham"
+  },
+  {
+    "id": 847,
+    "text": "Hej, här är den senaste sammanställningen från vårt kundmöte. Jag ser fram emot din feedback.",
+    "label": "ham"
+  },
+  {
+    "id": 848,
+    "text": "Hej, jag bifogar en uppdaterad version av kundanalysen. Tack för att du tar dig tid att läsa igenom den.",
+    "label": "ham"
+  },
+  {
+    "id": 849,
+    "text": "Hej, tack för ett givande möte. Här är de uppdaterade siffrorna från kundundersökningen.",
+    "label": "ham"
+  },
+  {
+    "id": 850,
+    "text": "Hej, jag har skickat en uppdaterad rapport om våra kundresultat. Bekräfta gärna mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 851,
+    "text": "Erbjudande: Få 50% rabatt på alla våra senaste produkter – detta exklusiva erbjudande gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 852,
+    "text": "Grattis! Du har nu chansen att vinna en gratis produkt. Använd koden SPAM852 vid kassan.",
+    "label": "spam"
+  },
+  {
+    "id": 853,
+    "text": "Erbjudande: Ta del av vårt unika erbjudande med upp till 60% rabatt. Skynda, erbjudandet är tidsbegränsat!",
+    "label": "spam"
+  },
+  {
+    "id": 854,
+    "text": "Grattis! Vinn en gratis produkt genom att registrera dig för vårt exklusiva erbjudande. Anmäl dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 855,
+    "text": "Erbjudande: Få gratis tillgång till våra premiumtjänster med detta exklusiva erbjudande. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 856,
+    "text": "Kund, ta del av vårt senaste erbjudande: Upp till 55% rabatt på utvalda produkter. Erbjudandet är tidsbegränsat!",
+    "label": "spam"
+  },
+  {
+    "id": 857,
+    "text": "Erbjudande: Få exklusiva rabatter och gratis tillbehör vid din nästa beställning. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 858,
+    "text": "Grattis! Vinn en gratis accessoar. Använd koden GRATIS858 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 859,
+    "text": "Erbjudande: Få en unik rabattkod som ger dig 50% rabatt på alla produkter. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 860,
+    "text": "Kund, missa inte detta: Ta del av vårt specialerbjudande med upp till 60% rabatt. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 861,
+    "text": "Hej, jag vill meddela att den senaste kundundersökningen nu är klar. Se bifogad rapport.",
+    "label": "ham"
+  },
+  {
+    "id": 862,
+    "text": "Hej, jag bifogar en rapport från vårt möte med viktiga kundinsikter. Tack för ditt deltagande.",
+    "label": "ham"
+  },
+  {
+    "id": 863,
+    "text": "Hej, tack för mötet idag. Här är en sammanfattning av de viktigaste kundpunkterna.",
+    "label": "ham"
+  },
+  {
+    "id": 864,
+    "text": "Hej, jag har uppdaterat den interna kundrapporten med nya siffror. Se bifogade detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 865,
+    "text": "Hej, vi har fått in nya kunddata. Läs den bifogade rapporten för en fullständig översikt.",
+    "label": "ham"
+  },
+  {
+    "id": 866,
+    "text": "Hej, jag vill meddela att vi planerar ett uppföljningsmöte med våra kunder nästa vecka. Mer information kommer snart.",
+    "label": "ham"
+  },
+  {
+    "id": 867,
+    "text": "Hej, här är en sammanställning från vårt senaste kundmöte. Jag ser fram emot din feedback.",
+    "label": "ham"
+  },
+  {
+    "id": 868,
+    "text": "Hej, jag har nu uppdaterat kundanalysen. Se den bifogade rapporten för detaljerade siffror.",
+    "label": "ham"
+  },
+  {
+    "id": 869,
+    "text": "Hej, tack för ett givande möte. Här är de uppdaterade kundresultaten.",
+    "label": "ham"
+  },
+  {
+    "id": 870,
+    "text": "Hej, jag vill meddela att vi har reviderat våra kundstrategier. Se bifogade uppgifter för mer information.",
+    "label": "ham"
+  },
+  {
+    "id": 871,
+    "text": "Erbjudande: Få 55% rabatt på utvalda varor med denna exklusiva kod. Gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 872,
+    "text": "Grattis! Du har blivit utvald att ta del av vårt specialerbjudande. Använd koden SPAM872 för en gratis bonus.",
+    "label": "spam"
+  },
+  {
+    "id": 873,
+    "text": "Erbjudande: Ta del av ett tidsbegränsat erbjudande med upp till 60% rabatt på utvalda produkter.",
+    "label": "spam"
+  },
+  {
+    "id": 874,
+    "text": "Grattis! Vinn en gratis produkt genom att registrera dig för vårt exklusiva erbjudande. Skynda dig!",
+    "label": "spam"
+  },
+  {
+    "id": 875,
+    "text": "Erbjudande: Få gratis tillgång till våra premiumtjänster med en unik rabattkod. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 876,
+    "text": "Kund, missa inte chansen att få en gratis gåva vid ditt nästa köp. Registrera dig för vårt erbjudande nu!",
+    "label": "spam"
+  },
+  {
+    "id": 877,
+    "text": "Erbjudande: Få en unik rabattkod som ger dig 50% rabatt på din nästa beställning. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 878,
+    "text": "Grattis! Du har vunnit en gratis present. Använd koden GRATIS878 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 879,
+    "text": "Erbjudande: Få exklusiva rabatter och gratis bonusar med detta unika erbjudande. Missa inte chansen!",
+    "label": "spam"
+  },
+  {
+    "id": 880,
+    "text": "Kund, ta del av vårt specialerbjudande med 50% rabatt och gratis tillbehör. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 881,
+    "text": "Hej, jag bifogar en uppdatering om de senaste kundresultaten. Tack för din tid.",
+    "label": "ham"
+  },
+  {
+    "id": 882,
+    "text": "Hej, vi har mottagit nya kunddata och jag bifogar en detaljerad rapport. Vänligen granska den.",
+    "label": "ham"
+  },
+  {
+    "id": 883,
+    "text": "Hej, jag vill meddela att vårt möte gav värdefulla insikter om kundnöjdheten. Rapporten finns bifogad.",
+    "label": "ham"
+  },
+  {
+    "id": 884,
+    "text": "Hej, jag har uppdaterat den interna kundanalysen. Se bifogade siffror för mer information.",
+    "label": "ham"
+  },
+  {
+    "id": 885,
+    "text": "Hej, tack för mötet. Här är den uppdaterade kundrapporten med de senaste resultaten.",
+    "label": "ham"
+  },
+  {
+    "id": 886,
+    "text": "Hej, jag bifogar en rapport från vårt senaste möte med fokus på kundfeedback. Läs gärna igenom den.",
+    "label": "ham"
+  },
+  {
+    "id": 887,
+    "text": "Hej, vi har nu nya uppgifter om våra kunder. Se den bifogade rapporten för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 888,
+    "text": "Hej, jag vill informera att våra kundstrategier har reviderats. Se den bifogade informationen.",
+    "label": "ham"
+  },
+  {
+    "id": 889,
+    "text": "Hej, bifogat finner du en sammanfattning från vårt kundmöte. Tack för att du tog del av informationen.",
+    "label": "ham"
+  },
+  {
+    "id": 890,
+    "text": "Hej, jag har skickat en uppdaterad rapport om kundresultaten. Vänligen bekräfta mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 891,
+    "text": "Erbjudande: Få 50% rabatt på alla våra nyheter med denna exklusiva kod. Gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 892,
+    "text": "Grattis! Du har blivit utvald att ta del av vårt specialerbjudande. Använd koden SPAM892 för en gratis bonus.",
+    "label": "spam"
+  },
+  {
+    "id": 893,
+    "text": "Erbjudande: Ta del av ett unikt erbjudande med upp till 60% rabatt på utvalda produkter.",
+    "label": "spam"
+  },
+  {
+    "id": 894,
+    "text": "Grattis, du är en av våra utvalda kunder! Få en gratis bonus vid ditt nästa köp med denna kod.",
+    "label": "spam"
+  },
+  {
+    "id": 895,
+    "text": "Erbjudande: Få exklusiva rabatter och gratis tillbehör. Detta tidsbegränsade erbjudande gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 896,
+    "text": "Kund, missa inte chansen att ta del av vårt specialerbjudande med 55% rabatt. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 897,
+    "text": "Erbjudande: Få en unik rabattkod som ger dig 50% rabatt på din nästa beställning. Skynda, erbjudandet är begränsat!",
+    "label": "spam"
+  },
+  {
+    "id": 898,
+    "text": "Grattis! Vinn en gratis present. Använd koden GRATIS898 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 899,
+    "text": "Erbjudande: Få exklusiva rabatter och gratis bonusar med detta unika erbjudande. Missa inte chansen!",
+    "label": "spam"
+  },
+  {
+    "id": 900,
+    "text": "Kund, ta del av vårt specialerbjudande med 50% rabatt och gratis tillbehör. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 901,
+    "text": "Hej, jag vill meddela att den senaste kundutvärderingen nu är klar. Se bifogad rapport.",
+    "label": "ham"
+  },
+  {
+    "id": 902,
+    "text": "Hej, här är en uppdatering om våra kundresultat efter det senaste mötet. Tack för ditt deltagande.",
+    "label": "ham"
+  },
+  {
+    "id": 903,
+    "text": "Hej, jag bifogar en detaljerad kundanalys. Bekräfta gärna mottagandet av rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 904,
+    "text": "Hej, vi har uppdaterat kundinformationen. Se bifogad rapport med de senaste siffrorna.",
+    "label": "ham"
+  },
+  {
+    "id": 905,
+    "text": "Hej, tack för ett produktivt möte. Här är en sammanfattning med de senaste kundresultaten.",
+    "label": "ham"
+  },
+  {
+    "id": 906,
+    "text": "Hej, jag vill informera att vi har nya kundstrategier. Se bifogad information för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 907,
+    "text": "Hej, bifogat finner du en rapport från vårt senaste kundmöte. Jag ser fram emot din feedback.",
+    "label": "ham"
+  },
+  {
+    "id": 908,
+    "text": "Hej, jag har uppdaterat den interna kundrapporten med nya data. Tack för att du tar del av informationen.",
+    "label": "ham"
+  },
+  {
+    "id": 909,
+    "text": "Hej, här är en översikt över de senaste kundresultaten. Bekräfta gärna mottagandet av rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 910,
+    "text": "Hej, jag vill meddela att vårt senaste möte gav värdefulla kundinsikter. Se den bifogade sammanfattningen.",
+    "label": "ham"
+  },
+  {
+    "id": 911,
+    "text": "Erbjudande: Få 55% rabatt på alla våra produkter med denna exklusiva kod. Gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 912,
+    "text": "Grattis! Du har blivit utvald att ta del av vårt specialerbjudande. Använd koden SPAM912 för gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 913,
+    "text": "Erbjudande: Ta del av ett unikt erbjudande med upp till 60% rabatt på utvalda varor. Skynda, erbjudandet är tidsbegränsat!",
+    "label": "spam"
+  },
+  {
+    "id": 914,
+    "text": "Grattis! Vinn en gratis produkt genom att registrera dig för vårt exklusiva erbjudande. Anmäl dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 915,
+    "text": "Erbjudande: Få gratis tillgång till våra premiumtjänster med upp till 50% rabatt. Detta erbjudande gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 916,
+    "text": "Kund, missa inte detta: Ta del av vårt specialerbjudande med gratis gåvor vid köp. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 917,
+    "text": "Erbjudande: Få en unik rabattkod som ger dig 50% rabatt på din nästa beställning. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 918,
+    "text": "Grattis! Du har vunnit en gratis present. Använd koden GRATIS918 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 919,
+    "text": "Erbjudande: Få exklusiva rabatter och gratis bonusar med detta unika erbjudande. Missa inte chansen!",
+    "label": "spam"
+  },
+  {
+    "id": 920,
+    "text": "Kund, ta del av vårt specialerbjudande med 50% rabatt och gratis tillbehör. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 921,
+    "text": "Hej, jag vill meddela att de senaste kundresultaten nu finns i den bifogade rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 922,
+    "text": "Hej, här är en uppdatering från vårt kundmöte med viktiga insikter. Tack för ditt deltagande.",
+    "label": "ham"
+  },
+  {
+    "id": 923,
+    "text": "Hej, jag har uppdaterat kundanalysen med nya siffror. Se rapporten bifogad.",
+    "label": "ham"
+  },
+  {
+    "id": 924,
+    "text": "Hej, tack för mötet idag. Här är en sammanfattning av våra diskussioner om kundnöjdhet.",
+    "label": "ham"
+  },
+  {
+    "id": 925,
+    "text": "Hej, jag bifogar den senaste kundrapporten. Bekräfta gärna mottagandet av dokumentet.",
+    "label": "ham"
+  },
+  {
+    "id": 926,
+    "text": "Hej, vi har fått in nya kunddata. Läs den bifogade rapporten för en detaljerad översikt.",
+    "label": "ham"
+  },
+  {
+    "id": 927,
+    "text": "Hej, jag vill meddela att våra kundstrategier har reviderats. Se den bifogade informationen.",
+    "label": "ham"
+  },
+  {
+    "id": 928,
+    "text": "Hej, tack för ett givande möte. Här är en sammanfattning med de senaste kundresultaten.",
+    "label": "ham"
+  },
+  {
+    "id": 929,
+    "text": "Hej, jag har uppdaterat den interna kundrapporten. Se bifogade siffror för ytterligare detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 930,
+    "text": "Hej, här är den senaste uppdateringen om kundnöjdheten. Bekräfta mottagandet av rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 931,
+    "text": "Erbjudande: Få 50% rabatt på utvalda produkter med denna exklusiva kod. Gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 932,
+    "text": "Grattis! Du har blivit utvald att ta del av vårt specialerbjudande. Använd koden SPAM931 för att få en gratis bonus.",
+    "label": "spam"
+  },
+  {
+    "id": 933,
+    "text": "Erbjudande: Ta del av ett unikt erbjudande med upp till 60% rabatt på utvalda varor. Detta är ett tidsbegränsat erbjudande!",
+    "label": "spam"
+  },
+  {
+    "id": 934,
+    "text": "Grattis! Vinn en gratis produkt genom att registrera dig för vårt exklusiva erbjudande. Skynda dig!",
+    "label": "spam"
+  },
+  {
+    "id": 935,
+    "text": "Erbjudande: Få gratis tillgång till våra premiumtjänster med en unik rabattkod. Erbjudandet gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 936,
+    "text": "Kund, missa inte detta: Ta del av vårt specialerbjudande med gratis gåvor vid köp. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 937,
+    "text": "Erbjudande: Få en unik rabattkod som ger dig 50% rabatt på din nästa beställning. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 938,
+    "text": "Grattis! Du har vunnit en gratis present. Använd koden GRATIS938 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 939,
+    "text": "Erbjudande: Få exklusiva rabatter och gratis bonusar med detta unika erbjudande. Missa inte chansen!",
+    "label": "spam"
+  },
+  {
+    "id": 940,
+    "text": "Kund, ta del av vårt specialerbjudande med 50% rabatt och gratis tillbehör. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 941,
+    "text": "Hej, jag vill meddela att den senaste kundutvärderingen nu är klar. Se bifogad rapport.",
+    "label": "ham"
+  },
+  {
+    "id": 942,
+    "text": "Hej, här är en uppdatering om våra kundresultat efter det senaste mötet. Tack för ditt deltagande.",
+    "label": "ham"
+  },
+  {
+    "id": 943,
+    "text": "Hej, jag bifogar en detaljerad kundanalys. Bekräfta gärna mottagandet av rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 944,
+    "text": "Hej, vi har uppdaterat kundinformationen. Se den bifogade rapporten med de senaste siffrorna.",
+    "label": "ham"
+  },
+  {
+    "id": 945,
+    "text": "Hej, tack för ett produktivt möte. Här är en sammanfattning med de senaste kundresultaten.",
+    "label": "ham"
+  },
+  {
+    "id": 946,
+    "text": "Hej, jag vill informera att vi har nya kundstrategier. Se den bifogade informationen för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 947,
+    "text": "Hej, bifogat finner du en rapport från vårt senaste kundmöte. Jag ser fram emot din feedback.",
+    "label": "ham"
+  },
+  {
+    "id": 948,
+    "text": "Hej, jag har uppdaterat den interna kundrapporten med nya data. Tack för att du tar del av informationen.",
+    "label": "ham"
+  },
+  {
+    "id": 949,
+    "text": "Hej, här är en översikt över de senaste kundresultaten. Bekräfta gärna mottagandet av rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 950,
+    "text": "Hej, jag vill meddela att vårt senaste möte gav värdefulla kundinsikter. Se den bifogade sammanfattningen.",
+    "label": "ham"
+  },
+  {
+    "id": 951,
+    "text": "Erbjudande: Få 55% rabatt på alla våra nyheter med denna exklusiva kod. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 952,
+    "text": "Grattis! Du har blivit utvald att ta del av vårt specialerbjudande. Använd koden SPAM951 för gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 953,
+    "text": "Erbjudande: Ta del av ett unikt erbjudande med upp till 60% rabatt på utvalda varor. Skynda, erbjudandet är begränsat!",
+    "label": "spam"
+  },
+  {
+    "id": 954,
+    "text": "Grattis! Vinn en gratis produkt genom att registrera dig för detta exklusiva erbjudande. Anmäl dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 955,
+    "text": "Erbjudande: Få gratis tillgång till våra premiumtjänster med upp till 50% rabatt. Erbjudandet gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 956,
+    "text": "Kund, missa inte detta: Ta del av vårt specialerbjudande med gratis gåvor vid köp. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 957,
+    "text": "Erbjudande: Få en unik rabattkod som ger dig 50% rabatt på din nästa beställning. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 958,
+    "text": "Grattis! Du har vunnit en gratis present. Använd koden GRATIS958 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 959,
+    "text": "Erbjudande: Få exklusiva rabatter och gratis bonusar med detta unika erbjudande. Missa inte chansen!",
+    "label": "spam"
+  },
+  {
+    "id": 960,
+    "text": "Kund, ta del av vårt specialerbjudande med 50% rabatt och gratis tillbehör. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 961,
+    "text": "Hej, jag vill meddela att de senaste kundresultaten nu finns i den bifogade rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 962,
+    "text": "Hej, här är en uppdatering om vårt kundmöte med viktiga insikter. Tack för ditt deltagande.",
+    "label": "ham"
+  },
+  {
+    "id": 963,
+    "text": "Hej, jag har uppdaterat kundanalysen med nya siffror. Se den bifogade rapporten för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 964,
+    "text": "Hej, tack för mötet idag. Här är en sammanfattning av våra diskussioner om kundnöjdhet.",
+    "label": "ham"
+  },
+  {
+    "id": 965,
+    "text": "Hej, jag bifogar den senaste kundrapporten. Bekräfta gärna mottagandet av dokumentet.",
+    "label": "ham"
+  },
+  {
+    "id": 966,
+    "text": "Hej, vi har fått in nya kunddata. Läs den bifogade rapporten för en detaljerad översikt.",
+    "label": "ham"
+  },
+  {
+    "id": 967,
+    "text": "Hej, jag vill meddela att våra kundstrategier har reviderats. Se den bifogade informationen för mer.",
+    "label": "ham"
+  },
+  {
+    "id": 968,
+    "text": "Hej, tack för ett givande möte. Här är en sammanfattning med de senaste kundresultaten.",
+    "label": "ham"
+  },
+  {
+    "id": 969,
+    "text": "Hej, jag har uppdaterat den interna kundrapporten. Se bifogade siffror för ytterligare detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 970,
+    "text": "Hej, här är den senaste uppdateringen om kundnöjdheten. Bekräfta gärna mottagandet av rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 971,
+    "text": "Erbjudande: Få 50% rabatt på alla våra produkter med denna exklusiva kod. Gäller idag!",
+    "label": "spam"
+  },
+  {
+    "id": 972,
+    "text": "Grattis! Du har blivit utvald att ta del av vårt specialerbjudande. Använd koden SPAM972 för gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 973,
+    "text": "Erbjudande: Ta del av ett unikt erbjudande med upp till 60% rabatt på utvalda varor. Detta är ett tidsbegränsat erbjudande!",
+    "label": "spam"
+  },
+  {
+    "id": 974,
+    "text": "Grattis! Vinn en gratis produkt genom att registrera dig för vårt exklusiva erbjudande. Skynda dig!",
+    "label": "spam"
+  },
+  {
+    "id": 975,
+    "text": "Erbjudande: Få gratis tillgång till våra premiumtjänster med en unik rabattkod. Erbjudandet gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 976,
+    "text": "Kund, missa inte detta: Ta del av vårt specialerbjudande med gratis gåvor vid köp. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 977,
+    "text": "Erbjudande: Få en unik rabattkod som ger dig 50% rabatt på din nästa beställning. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 978,
+    "text": "Grattis! Du har vunnit en gratis present. Använd koden GRATIS978 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 979,
+    "text": "Erbjudande: Få exklusiva rabatter och gratis bonusar med detta unika erbjudande. Missa inte chansen!",
+    "label": "spam"
+  },
+  {
+    "id": 980,
+    "text": "Kund, ta del av vårt specialerbjudande med 50% rabatt och gratis tillbehör. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 981,
+    "text": "Hej, jag vill meddela att den senaste kundutvärderingen nu är klar. Se bifogad rapport.",
+    "label": "ham"
+  },
+  {
+    "id": 982,
+    "text": "Hej, här är en uppdatering om våra kundresultat efter det senaste mötet. Tack för din insats.",
+    "label": "ham"
+  },
+  {
+    "id": 983,
+    "text": "Hej, jag bifogar en detaljerad kundanalys. Bekräfta gärna mottagandet av rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 984,
+    "text": "Hej, vi har uppdaterat kundinformationen och jag har bifogat den senaste rapporten. Läs igenom den.",
+    "label": "ham"
+  },
+  {
+    "id": 985,
+    "text": "Hej, tack för ett produktivt möte. Här är en sammanfattning med de senaste kundresultaten.",
+    "label": "ham"
+  },
+  {
+    "id": 986,
+    "text": "Hej, jag vill informera att vi har nya kundstrategier. Se bifogad information för detaljer.",
+    "label": "ham"
+  },
+  {
+    "id": 987,
+    "text": "Hej, bifogat finner du en rapport från vårt senaste kundmöte. Jag ser fram emot din feedback.",
+    "label": "ham"
+  },
+  {
+    "id": 988,
+    "text": "Hej, jag har uppdaterat den interna kundrapporten med nya data. Tack för att du tar del av informationen.",
+    "label": "ham"
+  },
+  {
+    "id": 989,
+    "text": "Hej, här är en översikt över de senaste kundresultaten. Bekräfta gärna mottagandet av rapporten.",
+    "label": "ham"
+  },
+  {
+    "id": 990,
+    "text": "Hej, jag vill meddela att vårt senaste möte gav värdefulla kundinsikter. Se den bifogade sammanfattningen.",
+    "label": "ham"
+  },
+  {
+    "id": 991,
+    "text": "Erbjudande: Få 55% rabatt på alla våra nyheter med denna exklusiva kod. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 992,
+    "text": "Grattis! Du har blivit utvald att ta del av vårt specialerbjudande. Använd koden SPAM992 för gratis bonusar.",
+    "label": "spam"
+  },
+  {
+    "id": 993,
+    "text": "Erbjudande: Ta del av ett unikt erbjudande med upp till 60% rabatt på utvalda varor. Skynda, erbjudandet är tidsbegränsat!",
+    "label": "spam"
+  },
+  {
+    "id": 994,
+    "text": "Grattis! Vinn en gratis produkt genom att registrera dig för detta exklusiva erbjudande. Anmäl dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 995,
+    "text": "Erbjudande: Få gratis tillgång till våra premiumtjänster med upp till 50% rabatt. Detta erbjudande gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 996,
+    "text": "Kund, missa inte detta: Ta del av vårt specialerbjudande med gratis gåvor vid köp. Registrera dig nu!",
+    "label": "spam"
+  },
+  {
+    "id": 997,
+    "text": "Erbjudande: Få en unik rabattkod som ger dig 50% rabatt på din nästa beställning. Gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 998,
+    "text": "Grattis! Du har vunnit en gratis present. Använd koden GRATIS998 för att ta del av erbjudandet.",
+    "label": "spam"
+  },
+  {
+    "id": 999,
+    "text": "Erbjudande: Få exklusiva rabatter och gratis bonusar med detta unika erbjudande. Missa inte chansen!",
+    "label": "spam"
+  },
+  {
+    "id": 1000,
+    "text": "Kund, ta del av vårt specialerbjudande med 50% rabatt och gratis tillbehör. Registrera dig nu!",
+    "label": "spam"
   }
 ]
+
+
 
 
 
