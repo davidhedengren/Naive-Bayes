@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="sv">
   <head>
     <meta charset="UTF-8" />
@@ -521,8 +521,9 @@
       
         const handleEdit = (word) => {
           setEditingWord(word);
-          setEditSpam(computedSpamCounts[word] ?? customWordCounts[word]?.spam ?? 0);
-          setEditHam(computedHamCounts[word] ?? customWordCounts[word]?.ham ?? 0);
+          // Prioritera beräknade värden om de finns (även om de är 0)
+          setEditSpam(computedSpamCounts[word] !== undefined ? computedSpamCounts[word] : customWordCounts[word]?.spam ?? 0);
+          setEditHam(computedHamCounts[word] !== undefined ? computedHamCounts[word] : customWordCounts[word]?.ham ?? 0);
         };
       
         const saveEdit = (word) => {
@@ -581,8 +582,9 @@
               </thead>
               <tbody>
                 {wordsToDisplay.map((word) => {
-                  const spamCount = computedSpamCounts[word] ?? customWordCounts[word]?.spam ?? 0;
-                  const hamCount = computedHamCounts[word] ?? customWordCounts[word]?.ham ?? 0;
+                  // Använd beräknade värden om de finns, annars customWordCounts
+                  const spamCount = (computedSpamCounts[word] !== undefined ? computedSpamCounts[word] : customWordCounts[word]?.spam) ?? 0;
+                  const hamCount = (computedHamCounts[word] !== undefined ? computedHamCounts[word] : customWordCounts[word]?.ham) ?? 0;
                   return (
                     <WordFrequencyRow
                       key={word}
@@ -747,10 +749,8 @@
                     <ul>
                       {result.details.map((d, i) => (
                         <li key={i}>
-                          Ordet "<em>{d.word}</em>" – P(word|Spam): {d.probWordSpam.toFixed(3)}
-                          {d.countSpam === 0 && <span className="warning"></span>},&nbsp;
+                          Ordet "<em>{d.word}</em>" – P(word|Spam): {d.probWordSpam.toFixed(3)},&nbsp;
                           P(word|Icke-Spam): {d.probWordHam.toFixed(3)}
-                          {d.countHam === 0 && <span className="warning"></span>}
                         </li>
                       ))}
                     </ul>
