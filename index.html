@@ -234,10 +234,12 @@
       /********************
        * Hjälpfunktioner *
        ********************/
+      // Ändra regexen för att stödja Unicode (såsom "ö")
       function computeWordCounts(emails) {
         const counts = {};
         emails.forEach((email) => {
-          const tokens = email.text.toLowerCase().match(/\b\w+\b/g) || [];
+          // Matchar alla bokstäver och siffror med Unicode-stöd
+          const tokens = email.text.toLowerCase().match(/[\p{L}\p{N}_]+/gu) || [];
           tokens.forEach((token) => {
             counts[token] = (counts[token] || 0) + 1;
           });
@@ -521,7 +523,7 @@
       
         const handleEdit = (word) => {
           setEditingWord(word);
-          // Prioritera beräknade värden om de finns (även om de är 0)
+          // Prioritera de beräknade värdena
           setEditSpam(computedSpamCounts[word] !== undefined ? computedSpamCounts[word] : customWordCounts[word]?.spam ?? 0);
           setEditHam(computedHamCounts[word] !== undefined ? computedHamCounts[word] : customWordCounts[word]?.ham ?? 0);
         };
@@ -582,7 +584,6 @@
               </thead>
               <tbody>
                 {wordsToDisplay.map((word) => {
-                  // Använd beräknade värden om de finns, annars customWordCounts
                   const spamCount = (computedSpamCounts[word] !== undefined ? computedSpamCounts[word] : customWordCounts[word]?.spam) ?? 0;
                   const hamCount = (computedHamCounts[word] !== undefined ? computedHamCounts[word] : customWordCounts[word]?.ham) ?? 0;
                   return (
@@ -649,7 +650,7 @@
         const classifyEmail = () => {
           setLoading(true);
           setTimeout(() => {
-            const words = inputText.toLowerCase().match(/\b\w+\b/g) || [];
+            const words = inputText.toLowerCase().match(/[\p{L}\p{N}_]+/gu) || [];
             const spamEmails = trainingData.filter(email => email.label === "spam");
             const hamEmails = trainingData.filter(email => email.label === "ham");
             const spamCount = spamEmails.length;
@@ -673,7 +674,7 @@
             const computedHamCounts = computeWordCounts(hamEmails);
             const vocabulary = new Set();
             trainingData.forEach(email => {
-              (email.text.toLowerCase().match(/\b\w+\b/g) || []).forEach(token => vocabulary.add(token));
+              (email.text.toLowerCase().match(/[\p{L}\p{N}_]+/gu) || []).forEach(token => vocabulary.add(token));
             });
             const vocabSize = vocabulary.size;
       
