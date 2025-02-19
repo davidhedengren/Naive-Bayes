@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "text": "Grattis! Du har vunnit en gratis resa till Bahamas. Klicka här för att hämta din belöning.",
+    "label": "spam"
+  },
+  {
+    "id": 2,
+    "text": "Hej, jag ville bara kolla om du är tillgänglig för ett möte imorgon på kontoret.",
+    "label": "ham"
+  },
+  {
+    "id": 3,
+    "text": "Exklusivt erbjudande: Köp ett par skor och få ett extra par helt gratis!",
+    "label": "spam"
+  },
+  {
+    "id": 4,
+    "text": "Hej, jag bifogar den senaste versionen av projektplanen. Hör av dig om du har frågor.",
+    "label": "ham"
+  },
+  {
+    "id": 5,
+    "text": "Vinn pengar snabbt – registrera dig nu för att ta del av vårt hemliga erbjudande.",
+    "label": "spam"
+  },
+  {
+    "id": 6,
+    "text": "Tack för din hjälp med rapporten. Vi ses på mötet nästa vecka.",
+    "label": "ham"
+  },
+  {
+    "id": 7,
+    "text": "Sista chansen! Få din gratis bonus genom att klicka på länken innan erbjudandet löper ut.",
+    "label": "spam"
+  },
+  {
+    "id": 8,
+    "text": "Hej, här är informationen du bad om angående kundmötet. Mvh, Anna.",
+    "label": "ham"
+  },
+  {
+    "id": 9,
+    "text": "Få en gratis present vid ditt nästa köp – erbjudandet gäller endast idag!",
+    "label": "spam"
+  },
+  {
+    "id": 10,
+    "text": "Hej, jag undrar om vi kan boka in ett möte för att diskutera projektets nästa steg.",
+    "label": "ham"
+  },
+  {
+    "id": 11,
+    "text": "Upplev vår nya produkt – köp nu och få 50% rabatt på din första beställning!",
+    "label": "spam"
+  },
+  {
+    "id": 12,
+    "text": "God morgon, jag skickar med den uppdaterade schemaläggningen för dagens möten.",
+    "label": "ham"
+  },
+  {
+    "id": 13,
+    "text": "Erbjudande: Uppgradera ditt konto idag och få en gratis prenumeration under en månad.",
+    "label": "spam"
+  },
+  {
+    "id": 14,
+    "text": "Hej, jag bifogar protokollet från gårdagens styrelsemöte. Vänligen bekräfta mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 15,
+    "text": "Vinn en lyxweekend på ett femstjärnigt hotell – endast för våra utvalda medlemmar.",
+    "label": "spam"
+  },
+  {
+    "id": 16,
+    "text": "Hej, kan du skicka över den senaste versionen av din rapport innan mötet?",
+    "label": "ham"
+  },
+  {
+    "id": 17,
+    "text": "Missade du vårt erbjudande? Få din gratis bonus idag genom att klicka här!",
+    "label": "spam"
+  },
+  {
+    "id": 18,
+    "text": "Hej, jag ville påminna dig om att vi har ett kundmöte kl. 14.00 idag.",
+    "label": "ham"
+  },
+  {
+    "id": 19,
+    "text": "Extra erbjudande: Boka nu och få 30% rabatt på alla våra tjänster under den kommande månaden.",
+    "label": "spam"
+  },
+  {
+    "id": 20,
+    "text": "Hej, bifogar de senaste ändringarna i dokumentet. Vänligen återkom med dina synpunkter.",
+    "label": "ham"
+  },
+  {
+    "id": 21,
+    "text": "Viktig information: Uppgradera din säkerhetsprogramvara och skydda dina data idag!",
+    "label": "spam"
+  },
+  {
+    "id": 22,
+    "text": "Hej, jag vill påminna dig om att skicka in din veckorapport senast imorgon.",
+    "label": "ham"
+  },
+  {
+    "id": 23,
+    "text": "Exklusivt erbjudande: Få 40% rabatt på din nästa beställning – bara idag!",
+    "label": "spam"
+  },
+  {
+    "id": 24,
+    "text": "Hej, bifogar den uppdaterade agendan för nästa styrelsemöte. Hör gärna av dig med kommentarer.",
+    "label": "ham"
+  },
+  {
+    "id": 25,
+    "text": "Få en gratis provperiod av vårt premium-abonnemang – erbjudandet gäller endast begränsad tid.",
+    "label": "spam"
+  },
+  {
+    "id": 26,
+    "text": "Hej, jag har lagt upp de senaste filerna på servern. Låt mig veta om du har problem med åtkomsten.",
+    "label": "ham"
+  },
+  {
+    "id": 27,
+    "text": "Sista chansen: Få dubbla bonuspoäng vid nästa köp, klicka här för att utnyttja erbjudandet!",
+    "label": "spam"
+  },
+  {
+    "id": 28,
+    "text": "Hej, skulle du kunna skicka över de aktuella siffrorna inför kommande möte?",
+    "label": "ham"
+  },
+  {
+    "id": 29,
+    "text": "Bara idag: Registrera dig för vårt nyhetsbrev och få en gratis e-bok som bonus!",
+    "label": "spam"
+  },
+  {
+    "id": 30,
+    "text": "Hej, jag vill bekräfta att mötet är inbokat till tisdag kl. 10.00.",
+    "label": "ham"
+  },
+  {
+    "id": 31,
+    "text": "Få exklusiv tillgång: Klicka här för att se våra hemliga erbjudanden innan de publiceras för allmänheten.",
+    "label": "spam"
+  },
+  {
+    "id": 32,
+    "text": "Hej, jag skickar med de senaste ändringarna i projektplanen. Vänligen återkom med feedback.",
+    "label": "ham"
+  },
+  {
+    "id": 33,
+    "text": "Bli medlem idag och få omedelbar rabatt på alla våra tjänster – begränsat antal platser!",
+    "label": "spam"
+  },
+  {
+    "id": 34,
+    "text": "Hej, vi har flyttat våra möteslokaler. Se den bifogade kartan för den nya adressen.",
+    "label": "ham"
+  },
+  {
+    "id": 35,
+    "text": "Erbjudande: Uppgradera till vår premiumtjänst och njut av exklusiva förmåner utan extra kostnad.",
+    "label": "spam"
+  },
+  {
+    "id": 36,
+    "text": "Hej, kan du bekräfta att du mottagit den senaste rapporten? Tack på förhand.",
+    "label": "ham"
+  },
+  {
+    "id": 37,
+    "text": "Säkert och enkelt: Registrera dig nu för att få tillgång till våra specialerbjudanden.",
+    "label": "spam"
+  },
+  {
+    "id": 38,
+    "text": "Hej, jag vill meddela att jag kommer att vara frånvarande på kontoret nästa vecka.",
+    "label": "ham"
+  },
+  {
+    "id": 39,
+    "text": "Exklusivt: Få din gratis produktprover genom att klicka på länken nedan – erbjudandet gäller endast idag.",
+    "label": "spam"
+  },
+  {
+    "id": 40,
+    "text": "Hej, här är den sammanfattning av mötet vi hade igår. Hör gärna av dig om något saknas.",
+    "label": "ham"
+  },
+  {
+    "id": 41,
+    "text": "Snabbt erbjudande: Få 20% rabatt på alla köp under denna vecka – klicka här för att ta del av rabatten.",
+    "label": "spam"
+  },
+  {
+    "id": 42,
+    "text": "Hej, jag bifogar de senaste uppdateringarna till vårt projekt. Vänligen kontrollera dokumenten.",
+    "label": "ham"
+  },
+  {
+    "id": 43,
+    "text": "Få en gratis konsultation med våra experter – erbjudandet gäller endast för en begränsad tid!",
+    "label": "spam"
+  },
+  {
+    "id": 44,
+    "text": "Hej, jag vill påminna om att deadline för inlämning av rapporten är imorgon.",
+    "label": "ham"
+  },
+  {
+    "id": 45,
+    "text": "Erbjudande: Uppgradera ditt konto idag och få en gratis månads prenumeration på våra premiumtjänster.",
+    "label": "spam"
+  },
+  {
+    "id": 46,
+    "text": "Hej, jag skickar med detaljerad information om den kommande konferensen. Vänligen bekräfta mottagandet.",
+    "label": "ham"
+  },
+  {
+    "id": 47,
+    "text": "Sista chansen att ta del av vårt erbjudande! Klicka här för att säkra din gratis bonus.",
+    "label": "spam"
+  },
+  {
+    "id": 48,
+    "text": "Hej, kan du vänligen skicka den uppdaterade budgeten till mig innan slutet av dagen?",
+    "label": "ham"
+  },
+  {
+    "id": 49,
+    "text": "Missa inte: Registrera dig nu och få exklusiva erbjudanden som aldrig kommer tillbaka!",
+    "label": "spam"
+  },
+  {
+    "id": 50,
+    "text": "Hej, jag ville bara påminna om att vi har ett möte på fredag kl. 15.00. Vänligen bekräfta din närvaro.",
+    "label": "ham"
+  }
+]
+
+
