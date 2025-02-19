@@ -26,18 +26,9 @@
     <script>
       delete window.d3;
     </script>
-    <!-- MathLive (för matematiska uttryck) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/mathlive/0.69.4/mathlive.min.css"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathlive/0.69.4/mathlive.min.js"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <!-- MathLive (via unpkg, då cdnjs-versionen gav MIME-fel) -->
+    <link rel="stylesheet" href="https://unpkg.com/mathlive/dist/mathlive.min.css" />
+    <script src="https://unpkg.com/mathlive/dist/mathlive.min.js"></script>
     <style>
       /* Grundläggande typografi och färgpalett */
       body {
@@ -236,7 +227,7 @@
       window.React = React;
       window.ReactDOM = ReactDOM;
     </script>
-    <!-- Observera: Vi använder nu data-presets="react" -->
+    <!-- Babel script: Observera att vi använder data-presets="react" -->
     <script type="text/babel" data-presets="react">
       /********************
        * Hjälpfunktioner *
@@ -244,7 +235,7 @@
       function computeWordCounts(emails) {
         const counts = {};
         emails.forEach((email) => {
-          // Regex för att matcha A-Z, a-z, siffror samt bokstäver med accenter (inklusive svenska)
+          // Regex för att matcha A-Z, a-z, siffror samt bokstäver med accenter (inklusive svenska tecken)
           const tokens = email.text.toLowerCase().match(/[A-Za-zÀ-ÖØ-öø-ÿ0-9_]+/g) || [];
           tokens.forEach((token) => {
             counts[token] = (counts[token] || 0) + 1;
