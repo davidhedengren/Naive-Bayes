@@ -314,11 +314,11 @@
         ).toFixed(3);
         
         const tooltipSpam = applyLaplaceSpam
-          ? `Laplace används: (0 + 1) / (${totalSpamWords} + ${vocabSize})`
-          : `${spamCount} / ${totalSpamWords}`;
+          ? "Beräknat med Laplace-utjämning: (0 + 1) / (totalt antal ord i spam + vokabulärens storlek)"
+          : `Beräknat utan Laplace: ${spamCount} / ${totalSpamWords}`;
         const tooltipHam = applyLaplaceHam
-          ? `Laplace används: (0 + 1) / (${totalHamWords} + ${vocabSize})`
-          : `${hamCount} / ${totalHamWords}`;
+          ? "Beräknat med Laplace-utjämning: (0 + 1) / (totalt antal ord i icke-spam + vokabulärens storlek)"
+          : `Beräknat utan Laplace: ${hamCount} / ${totalHamWords}`;
       
         return (
           <tr>
@@ -631,18 +631,26 @@
             <div className="formula-container">
               <div
                 dangerouslySetInnerHTML={{
-                  __html: `
-                    \\( P(Spam|Ord) = \\frac{P(Ord|Spam) \\cdot P(Spam)}{P(Ord)} \\)
-                  `
+                  __html: `\\[
+                    P(\\text{Spam}|\\text{Ord}) = \\frac{P(\\text{Ord}|\\text{Spam}) \\cdot P(\\text{Spam})}{P(\\text{Ord})}
+                  \\]`
                 }}
               ></div>
             </div>
             <p>Där:</p>
             <ul>
-              <li>\\( P(Spam|Ord) \\): Sannolikhet att mail är spam givet orden</li>
-              <li>\\( P(Ord|Spam) \\): Sannolikhet att orden förekommer i spam</li>
-              <li>\\( P(Spam) \\): Andel spam i träningsdata</li>
-              <li>\\( P(Ord) \\): Sannolikhet att orden förekommer i alla mail</li>
+              <li>
+                \\( P(\\text{Spam}|\\text{Ord}) \\) är sannolikheten att ett mail är spam givet att de angivna orden förekommer.
+              </li>
+              <li>
+                \\( P(\\text{Ord}|\\text{Spam}) \\) beräknas som antalet gånger de angivna orden förekommer i spam dividerat med det totala antalet ord i alla spam-mail.
+              </li>
+              <li>
+                \\( P(\\text{Spam}) \\) är andelen mail som är spam (antalet spam-mail delat med totalt antal mail).
+              </li>
+              <li>
+                \\( P(\\text{Ord}) \\) är sannolikheten att de angivna orden förekommer i ett mail, dvs. hur ofta de förekommer i all e-post.
+              </li>
             </ul>
           </div>
         );
@@ -748,8 +756,8 @@
         const numSpam = trainingData.filter(e => e.label === "spam").length;
         const totalEmails = trainingData.length;
         const numHam = trainingData.filter(e => e.label === "ham").length;
-        const spamFormula = `\\( P(Spam) = \\frac{${numSpam}}{${totalEmails}} \\)`;
-        const hamFormula = `\\( P(Icke\\_Spam) = \\frac{${numHam}}{${totalEmails}} \\)`;
+        const spamFormula = `\\( P(\\text{Spam}) = \\frac{${numSpam}}{${totalEmails}} \\)`;
+        const hamFormula = `\\( P(\\text{Icke\\_Spam}) = \\frac{${numHam}}{${totalEmails}} \\)`;
       
         return (
           <section>
@@ -798,28 +806,28 @@
                         <div
                           dangerouslySetInnerHTML={{
                             __html: `
-                              \\( P(${step.word}|Spam) = \\frac{${step.countSpam}${step.applyLaplaceSpam ? ' + 1' : ''}}{${result.totalSpamWords}${step.applyLaplaceSpam ? ' + ' + result.vocabSize : ''}} = ${step.probWordSpam.toFixed(3)} \\)
+                              \\( P(${step.word}|\\text{Spam}) = \\frac{${step.countSpam}${step.applyLaplaceSpam ? ' + 1' : ''}}{${result.totalSpamWords}${step.applyLaplaceSpam ? ' + ' + result.vocabSize : ''}} = ${step.probWordSpam.toFixed(3)} \\)
                             `
                           }}
                         ></div>
                         <div
                           dangerouslySetInnerHTML={{
                             __html: `
-                              \\( P(${step.word}|Icke\\_Spam) = \\frac{${step.countHam}${step.applyLaplaceHam ? ' + 1' : ''}}{${result.totalHamWords}${step.applyLaplaceHam ? ' + ' + result.vocabSize : ''}} = ${step.probWordHam.toFixed(3)} \\)
+                              \\( P(${step.word}|\\text{Icke\\_Spam}) = \\frac{${step.countHam}${step.applyLaplaceHam ? ' + 1' : ''}}{${result.totalHamWords}${step.applyLaplaceHam ? ' + ' + result.vocabSize : ''}} = ${step.probWordHam.toFixed(3)} \\)
                             `
                           }}
                         ></div>
                         <div
                           dangerouslySetInnerHTML={{
                             __html: `
-                              \\( P(Spam|\\text{ord}) = ${formatExp(step.prevSpamProb, 2)} \\times ${formatExp(step.probWordSpam, 2)} = ${formatExp(step.newSpamProb, 2)} \\)
+                              \\( P(\\text{Spam}|\\text{ord}) = ${formatExp(step.prevSpamProb, 2)} \\times ${formatExp(step.probWordSpam, 2)} = ${formatExp(step.newSpamProb, 2)} \\)
                             `
                           }}
                         ></div>
                         <div
                           dangerouslySetInnerHTML={{
                             __html: `
-                              \\( P(Icke\\_Spam|\\text{ord}) = ${formatExp(step.prevHamProb, 2)} \\times ${formatExp(step.probWordHam, 2)} = ${formatExp(step.newHamProb, 2)} \\)
+                              \\( P(\\text{Icke\\_Spam}|\\text{ord}) = ${formatExp(step.prevHamProb, 2)} \\times ${formatExp(step.probWordHam, 2)} = ${formatExp(step.newHamProb, 2)} \\)
                             `
                           }}
                         ></div>
@@ -830,9 +838,9 @@
                     <div
                       dangerouslySetInnerHTML={{
                         __html: `
-                          \\( P(Spam|\\text{alla ord}) = ${formatExp(result.spamProb, 2)} \\)
+                          \\( P(\\text{Spam}|\\text{alla ord}) = ${formatExp(result.spamProb, 2)} \\)
                           <br>
-                          \\( P(Icke\\_Spam|\\text{alla ord}) = ${formatExp(result.hamProb, 2)} \\)
+                          \\( P(\\text{Icke\\_Spam}|\\text{alla ord}) = ${formatExp(result.hamProb, 2)} \\)
                         `
                       }}
                     ></div>
