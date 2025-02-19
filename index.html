@@ -246,7 +246,7 @@
       }
       
       /**************************
-       * InteractiveFormula-komponent *
+       * InteractiveFormula-komponenten *
        **************************/
       function InteractiveFormula({ parts, onPartClick }) {
         return (
@@ -320,10 +320,7 @@
                   onChange={(e) => setEditSpam(e.target.value)}
                 />
               ) : (
-                <>
-                  {spamCount}
-                  {Number(spamCount) === 0 && <span className="warning"> (OBS! Noll)</span>}
-                </>
+                spamCount
               )}
             </td>
             <td>
@@ -336,10 +333,7 @@
                   onChange={(e) => setEditHam(e.target.value)}
                 />
               ) : (
-                <>
-                  {hamCount}
-                  {Number(hamCount) === 0 && <span className="warning"> (OBS! Noll)</span>}
-                </>
+                hamCount
               )}
             </td>
             <td>
@@ -348,8 +342,12 @@
                 <div className="ham-bar" style={{ width: `${hamPercentage}%` }}></div>
               </div>
             </td>
-            <td>{pWordSpam}</td>
-            <td>{pWordHam}</td>
+            <td title={`Beräknad med Laplace-utjämning: (${spamCount} + 1) / (${totalSpamWords} + ${vocabSize})`}>
+              {pWordSpam}
+            </td>
+            <td title={`Beräknad med Laplace-utjämning: (${hamCount} + 1) / (${totalHamWords} + ${vocabSize})`}>
+              {pWordHam}
+            </td>
             <td>
               {editing ? (
                 <>
@@ -523,8 +521,8 @@
       
         const handleEdit = (word) => {
           setEditingWord(word);
-          setEditSpam(customWordCounts[word]?.spam ?? computedSpamCounts[word] ?? 0);
-          setEditHam(customWordCounts[word]?.ham ?? computedHamCounts[word] ?? 0);
+          setEditSpam(computedSpamCounts[word] ?? customWordCounts[word]?.spam ?? 0);
+          setEditHam(computedHamCounts[word] ?? customWordCounts[word]?.ham ?? 0);
         };
       
         const saveEdit = (word) => {
@@ -583,8 +581,8 @@
               </thead>
               <tbody>
                 {wordsToDisplay.map((word) => {
-                  const spamCount = customWordCounts[word]?.spam ?? computedSpamCounts[word] ?? 0;
-                  const hamCount = customWordCounts[word]?.ham ?? computedHamCounts[word] ?? 0;
+                  const spamCount = computedSpamCounts[word] ?? customWordCounts[word]?.spam ?? 0;
+                  const hamCount = computedHamCounts[word] ?? customWordCounts[word]?.ham ?? 0;
                   return (
                     <WordFrequencyRow
                       key={word}
@@ -750,9 +748,9 @@
                       {result.details.map((d, i) => (
                         <li key={i}>
                           Ordet "<em>{d.word}</em>" – P(word|Spam): {d.probWordSpam.toFixed(3)}
-                          {d.countSpam === 0 && <span className="warning"> (OBS! Noll på spam)</span>},&nbsp;
+                          {d.countSpam === 0 && <span className="warning"></span>},&nbsp;
                           P(word|Icke-Spam): {d.probWordHam.toFixed(3)}
-                          {d.countHam === 0 && <span className="warning"> (OBS! Noll på icke-spam)</span>}
+                          {d.countHam === 0 && <span className="warning"></span>}
                         </li>
                       ))}
                     </ul>
